@@ -1,6 +1,6 @@
 # TITULO DO PROJETO
 
-Luis Filipe Melo Lisboa, luisw.lisboa@gmail.com
+Luis Filipe Melo Lisboa, lfmlisboa@sga.pucminas.br
 
 Rafael Silvestre da Silva, email do aluno 2**
 
