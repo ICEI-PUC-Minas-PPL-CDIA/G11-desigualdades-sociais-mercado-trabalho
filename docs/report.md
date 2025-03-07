@@ -2,12 +2,13 @@
 
 Luis Filipe Melo Lisboa, lfmlisboa@sga.pucminas.br
 
-Rafael Silvestre da Silva, email do aluno 2**
+Rafael Silvestre da Silva, rafael.silva.1548493@sga.pucminas.br
 
-Eduardo Velloso Landeiro, email do aluno 3**
+Eduardo Velloso Landeiro, eduardo.landeiro@sga.pucminas.br
 
 Matheus Tamietti, matheus.tamietti@sga.pucminas.br
 
+Iosef Juan Gonçalves Chebile Candido, ijgccandido@sga.pucminas.br
 ---
 
 Professores:
