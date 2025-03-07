@@ -1,21 +1,19 @@
 # TITULO DO PROJETO
 
+Luis Filipe Melo Lisboa, luisw.lisboa@gmail.com
 
-**Nome completo do Aluno 1, email do aluno 1**
+Rafael Silvestre da Silva, email do aluno 2**
 
-**Nome completo do Aluno 2, email do aluno 2**
-
-**Nome completo do Aluno 3, email do aluno 3**
+Eduardo Velloso Landeiro, email do aluno 3**
 
 ---
 
 Professores:
-
-** Prof. Nome do Prof 1 **
-** Prof. Nome do Prof 2 **
+Hugo Bastos de Paula
 
 ---
 
+Curso:
 _Curso de Ciência de Dados, Unidade Praça da Liberdade_
 
 _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Minas Gerais (PUC MINAS), Belo Horizonte – MG – Brasil_
