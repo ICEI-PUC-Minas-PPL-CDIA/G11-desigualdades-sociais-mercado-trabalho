@@ -6,6 +6,8 @@ Rafael Silvestre da Silva, email do aluno 2**
 
 Eduardo Velloso Landeiro, email do aluno 3**
 
+Matheus Tamietti, matheus.tamietti@sga.pucminas.br
+
 ---
 
 Professores:
