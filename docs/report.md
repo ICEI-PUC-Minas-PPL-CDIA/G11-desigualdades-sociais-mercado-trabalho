@@ -33,11 +33,14 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 ## Introdução
 
 A elaboração desse trabalho busca usar conhecimentos de ciência de dados para resolver problemas de relevância social. Desse modo, aplicamos técnicas de aprendizado de máquina para construir um modelo de agente inteligente, que identifica padrões em diferentes bases de dados, servindo de apoio à tomada de decisão de um problema social.
+
 Nesse contexto, utilizamos a base de dados State of Data Brasil 2023, que analisa o mercado de trabalho e o perfil do profissional na área de dados. Ao analisar essa base, observamos problemas sociais, bem como a desigualdade social no mercado, prova da discrepância salarial entre grupos étnicos. Assim, buscamos associar esse problema com outra área social relevante, a educação, buscando dados sobre essa em uma base de dados auxiliar, o Censo da Educação Superior 2023.
 
 ###    Contextualização
 
 A desigualdade na educação e a discrepância salarial entre grupos étnicos no mercado de dados no Brasil refletem um problema estrutural histórico do país. O acesso desigual à educação de qualidade e as barreiras socioeconômicas enfrentadas por determinados grupos impactam diretamente a inserção e a progressão na carreira dentro desse setor, que é um dos mais promissores e bem remunerados da economia digital. Assim, nosso modelo associa a desigualdade no mercado de trabalho com a desigualdade na educação, relacionando-as a partir da análise da dados e técnicas de aprendizado de máquina.
+
+Dessa maneira, as técnicas e análises do nosso modelo foram feitas usando como referência a base de dados State of Data Brasil 2023, relacionando-a ainda com o Censo da Educação Superior 2023. Assim, os atributos dessas bases geraram insights valiosos para abordarmos o problema da desigualdade na educação e no mercado de dados. 
 
 ###    Problema
 
