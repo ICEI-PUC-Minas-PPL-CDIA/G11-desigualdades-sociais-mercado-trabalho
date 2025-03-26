@@ -46,6 +46,8 @@ Dessa maneira, as técnicas e análises do nosso modelo foram feitas usando como
 
 O problema a ser analisado é a desigualdade social na área de dados. Nesse contexto grupos minoritários não recebem as mesmas oportunidades de educação e qualificação para o mercado de dados, surgindo assim uma discrepância salarial entre grupos étnicos. Dessa forma, faz-se necessário a pergunta “Como associar a desigualdade no mercado de trabalho com a desigualdade na educação na área de dados”.
 
+Feito tal pergunta, nosso grupo se apoiou nas bases de dados State of Data Brasil 2023 e Censo da Educação Superior 2023 para tentar respondê-la. Logo, nosso modelo se baseia em atributos dessas bases, gerando resultados a partir de técnicas de análise de dados e aprendizado de máquina. 
+
 ###    Objetivo geral
 
 O objetivo geral do trabalho é identificar relações entre a desigualdade étnica no mercado de trabalho e a desigualdade no acesso à educação na área de dados. Dessa forma, para atingir tal objetivo, baseamos nos atributos: gênero, cor/raça/etnia, PCD, experiência profissional prejudicada, atividades profissionais, remuneração/salário, área de formação.
