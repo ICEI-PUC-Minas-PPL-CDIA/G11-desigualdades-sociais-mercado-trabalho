@@ -9,6 +9,7 @@ Eduardo Velloso Landeiro, eduardo.landeiro@sga.pucminas.br
 Matheus Tamietti, matheus.tamietti@sga.pucminas.br
 
 Iosef Juan Gonçalves Chebile Candido, ijgccandido@sga.pucminas.br
+
 ---
 
 Professores:
