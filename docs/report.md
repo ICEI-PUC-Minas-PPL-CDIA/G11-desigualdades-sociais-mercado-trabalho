@@ -52,7 +52,8 @@ O objetivo geral do trabalho é identificar relações entre a desigualdade étn
 
 ####    Objetivos específicos
 
-Relacionar dados de bases diferentes; elaborar modelos que encontrem padrões nas bases de dados.
+- Relacionar dados de bases diferentes
+- Elaborar modelos que encontrem padrões nas bases de dados.
 
 
 ###    Justificativas
