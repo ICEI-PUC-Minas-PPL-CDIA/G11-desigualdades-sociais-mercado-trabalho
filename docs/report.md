@@ -124,6 +124,15 @@ diagramas de personas e mapa de stakeholders.
 - **Prefiro não informar**: 0.8%
 - **Outro**: 0.2%
 
+**Cor/Raça/Etnia**
+- **Branca**: 72.4%
+- **Parda**: 22.4%
+- **Preta**: 4%
+- **Amarela**: 0.9%
+- **Indígena**: 0.15%
+- **Outra**: 0.15%
+- **Prefiro não informar**: 0.30%
+
 
 ## Preparação dos dados
 
