@@ -118,6 +118,12 @@ diagramas de personas e mapa de stakeholders.
 - **Percentil 50 (Mediana)**: 31,00 anos
 - **Percentil 75 (Q3)**: 38,00 anos
 
+**Gênero:**
+- **Masculino**: 76.7%
+- **Feminino**: 22.2%
+- **Prefiro não informar**: 0.8%
+- **Outro**: 0.2%
+
 
 ## Preparação dos dados
 
