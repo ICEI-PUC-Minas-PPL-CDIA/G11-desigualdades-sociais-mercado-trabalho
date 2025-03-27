@@ -91,7 +91,7 @@ diagramas de personas e mapa de stakeholders.
 | Código          | Descrição                                              | Tipo                      |
 |----------------|------------------------------------------------------|---------------------------|
 | **P1_a (Idade)** | Idade do respondente                                  | Inteiro                   |
-| **P1_b (Gênero)** | Identidade de gênero do respondente                   | Categórico                |
+| **P1_b (Gênero)** | Identidade de gênero do respondente                   | Categórico Multivalorado      |
 | **P1_c (Cor/Raça/Etnia)** | Auto declaração de raça/etnia                 | Categórico Multivalorado  |
 | **P1_d (PCD)** | Pessoa com deficiência (Sim/Não)                        | Categórico Binário        |
 | **P1_e (Experiência Profissional Prejudicada)** | Indica se a experiência profissional foi prejudicada por algum fator | Categórico Multivalorado  |
@@ -106,9 +106,17 @@ diagramas de personas e mapa de stakeholders.
 
 ###    Descrição de dados
 
-Utilize a análise descritiva baseada em estatística de primeira ordem para descrever os dados.
-Como descrever dados numéricos: média, desvio padrão, mínimo, máximo, quartis, histograma, etc.
-Como descrever dados qualitativos (categóricos): moda (valor mais frequente), quantidade de valores distintos (categorias), distribuição das categorias (histograma), etc.
+**Base de dados: State of Data Brasil 2023**
+
+**Idade:**
+- **Idade Média**: 32,38 anos
+- **Desvio Padrão**: 8,40 anos
+- **Idade Mínima**: 18 anos
+- **Idade Máxima**: 73 anos
+- **Idade Mediana**: 31,00 anos
+- **Percentil 25 (Q1)**: 26,00 anos
+- **Percentil 50 (Mediana)**: 31,00 anos
+- **Percentil 75 (Q3)**: 38,00 anos
 
 
 ## Preparação dos dados
