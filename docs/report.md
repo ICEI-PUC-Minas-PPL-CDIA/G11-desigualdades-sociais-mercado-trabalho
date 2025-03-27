@@ -94,10 +94,6 @@ diagramas de personas e mapa de stakeholders.
 | **P1_b (Gênero)** | Identidade de gênero do respondente                   | Categórico Multivalorado      |
 | **P1_c (Cor/Raça/Etnia)** | Auto declaração de raça/etnia                 | Categórico Multivalorado  |
 | **P1_d (PCD)** | Pessoa com deficiência (Sim/Não)                        | Categórico Binário        |
-| **P1_e (Experiência Profissional Prejudicada)** | Indica se a experiência profissional foi prejudicada por algum fator | Categórico Multivalorado  |
-| **P1_e_1** | Experiência não foi prejudicada                          | Binário (0/1)             |
-| **P1_e_2** | Experiência prejudicada devido à Cor/Raça/Etnia          | Binário (0/1)             |
-| **P1_e_3** | Experiência prejudicada devido à identidade de gênero    | Binário (0/1)             |
 | **P1_l** | Nível de ensino                                           | Categórico Multivalorado  |
 | **P2_a** | Situação de trabalho                                      | Categórico Multivalorado  |
 | **P2_h** | Faixa salarial                                           | Qualitativo               |
@@ -124,7 +120,7 @@ diagramas de personas e mapa de stakeholders.
 - **Prefiro não informar**: 0.8%
 - **Outro**: 0.2%
 
-**Cor/Raça/Etnia**
+**Cor/Raça/Etnia:**
 - **Branca**: 72.4%
 - **Parda**: 22.4%
 - **Preta**: 4%
@@ -132,6 +128,10 @@ diagramas de personas e mapa de stakeholders.
 - **Indígena**: 0.15%
 - **Outra**: 0.15%
 - **Prefiro não informar**: 0.30%
+
+**PCD:**
+- **Sim**: 1.96%
+- **Não**: 98.04%
 
 
 ## Preparação dos dados
