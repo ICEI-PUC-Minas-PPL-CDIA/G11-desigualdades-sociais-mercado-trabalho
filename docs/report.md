@@ -86,7 +86,7 @@ diagramas de personas e mapa de stakeholders.
 
 ###    Dicionário de dados
 
-**Base de dados: State of Data Brasil 2023**
+_**Base de dados: State of Data Brasil 2023**_
 
 | Código          | Descrição                                              | Tipo                      |
 |----------------|------------------------------------------------------|---------------------------|
@@ -102,7 +102,7 @@ diagramas de personas e mapa de stakeholders.
 
 ###    Descrição de dados
 
-**Base de dados: State of Data Brasil 2023**
+_**Base de dados: State of Data Brasil 2023**_
 
 **Idade:**
 - **Idade Média**: 32,38 anos
@@ -132,6 +132,15 @@ diagramas de personas e mapa de stakeholders.
 **PCD:**
 - **Sim**: 1.96%
 - **Não**: 98.04%
+
+**Nível de ensino:**
+- **Graduação/Bacharelado**: 52.5%
+- **Pós-graduação**: 27.5%
+- **Mestrado**: 12.5%
+- **Estudante de graduação**: 5%
+- **Doutorado em PHD**: 1.5%
+- **Não tenho graduação formal**: 0.75%
+- **Prefiro não informar**: 0.25%
 
 
 ## Preparação dos dados
