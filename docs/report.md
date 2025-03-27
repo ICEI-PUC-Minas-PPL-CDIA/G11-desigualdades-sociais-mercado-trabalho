@@ -95,7 +95,6 @@ _**Base de dados: State of Data Brasil 2023**_
 | **P1_c (Cor/Raça/Etnia)** | Auto declaração de raça/etnia                 | Categórico Multivalorado  |
 | **P1_d (PCD)** | Pessoa com deficiência (Sim/Não)                        | Categórico Binário        |
 | **P1_l** | Nível de ensino                                           | Categórico Multivalorado  |
-| **P2_a** | Situação de trabalho                                      | Categórico Multivalorado  |
 | **P2_h** | Faixa salarial                                           | Qualitativo               |
 
 
@@ -141,6 +140,7 @@ _**Base de dados: State of Data Brasil 2023**_
 - **Doutorado em PHD**: 1.5%
 - **Não tenho graduação formal**: 0.75%
 - **Prefiro não informar**: 0.25%
+
 
 
 ## Preparação dos dados
