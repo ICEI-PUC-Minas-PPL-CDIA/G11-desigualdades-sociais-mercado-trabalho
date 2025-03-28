@@ -1,17 +1,16 @@
-# Nome do projeto
+# DESIGUALDADE NA EDUCAÇÃO E DISCREPÂNCIA SALARIAL ENTRE GRUPO ÉTNICOS NO MERCADO DE DADOS NO BRASIL
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto. Lembrando que o objeto é desenvolver um sistema inteligente. Você deve mencionar o produto que está sendo desenvolvido, e não o que se espera obter com este produto.
+O referente projeto tem como objetivo analisar um problema de relevância social usando técnicas de ciêcias de dados. Nesse contexto, a partir da análise da base de dados State of Data Brasil 2023, observamos o problema da discrepância salarial entre grupos étnicos e buscamos associa-lo à desigualdade na educação, usando uma base de dados auxiliar. Assim, nosso modelo utiliza técnicas de análise de dados e aprendizado de máquina para identificar relações entre a desigualdade étnica no mercado de trabalho e a desigualdade no acesso à educação na área de dados
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Eduardo Velloso Landeiro
+* Iosef Juan Gonçalves Chebile Candido
+* Rafael Silvestre da Silva
 
 ## Professor
 
-* Nome completo do professor (Prof. Hugo Bastos de Paula)
+* Prof. Hugo Bastos de Paula
 
 ## Instruções de utilização
 
