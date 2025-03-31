@@ -99,6 +99,14 @@ _**Base de dados: State of Data Brasil 2023**_
 | **P1_l** | Nível de ensino                                           | Categórico Multivalorado  |
 | **P2_h** | Faixa salarial                                           | Qualitativo               |
 
+_**Base de dados: Cedra – Matrículas no ensino superior em 2019**_
+
+| Atributo       | Descrição                                                                 | Tipo                  |
+|---------------|---------------------------------------------------------------------------|-----------------------|
+| Rede de Ensino | Indica a rede de ensino frequentada pelo indivíduo (ex: Especial, Pública, Privada) | Categórico Multivalorado  |
+| Faixa Etária   | Representa a faixa etária dos indivíduos (ex: Até 18, 19-24, 25-30)       | Qualitativo  |
+| Sexo          | Identifica o sexo do indivíduo (Feminino, Masculino)                      | Categórico Multivalorado  |
+| Raça/Cor      | Representa a classificação de raça/cor do indivíduo conforme critérios oficiais (ex: Branca, Negra, Outras, Sem Resposta) | Categórico Multivalorado  |
 
 
 ###    Descrição de dados
