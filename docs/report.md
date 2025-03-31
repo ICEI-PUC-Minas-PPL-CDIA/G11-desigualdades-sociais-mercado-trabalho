@@ -1,12 +1,8 @@
 # DESIGUALDADE NA EDUCAÇÃO E DISCREPÂNCIA SALARIAL ENTRE GRUPO ÉTNICOS NO MERCADO DE DADOS NO BRASIL
 
-Luis Filipe Melo Lisboa, lfmlisboa@sga.pucminas.br
-
 Rafael Silvestre da Silva, rafael.silva.1548493@sga.pucminas.br
 
 Eduardo Velloso Landeiro, eduardo.landeiro@sga.pucminas.br
-
-Matheus Tamietti, matheus.tamietti@sga.pucminas.br
 
 Iosef Juan Gonçalves Chebile Candido, ijgccandido@sga.pucminas.br
 
@@ -151,6 +147,17 @@ _**Base de dados: State of Data Brasil 2023**_
 - **Não tenho graduação formal**: 0.75%
 - **Prefiro não informar**: 0.25%
 
+_**Base de dados: Cedra – Matrículas no ensino superior em 2019**_
+
+**Sexo**
+- **Feminino**: 57.39%
+- **Masculino**: 42.61%
+
+**Raça/Cor**
+- **Branca**: 42.52%
+- **Negra**: 38.15%
+- **Outras**: 19.16%
+- **Sem resposta**: 0.17%
 
 
 ## Preparação dos dados
