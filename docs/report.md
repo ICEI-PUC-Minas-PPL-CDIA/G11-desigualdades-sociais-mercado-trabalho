@@ -34,19 +34,21 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 A elaboração desse trabalho busca usar conhecimentos de ciência de dados para resolver problemas de relevância social. Desse modo, aplicamos técnicas de aprendizado de máquina para construir um modelo de agente inteligente, que identifica padrões em diferentes bases de dados, servindo de apoio à tomada de decisão de um problema social.
 
-Nesse contexto, utilizamos a base de dados State of Data Brasil 2023, que analisa o mercado de trabalho e o perfil do profissional na área de dados. Ao analisar essa base, observamos problemas sociais, bem como a desigualdade social no mercado, prova da discrepância salarial entre grupos étnicos. Assim, buscamos associar esse problema com outra área social relevante, a educação, buscando dados sobre essa em uma base de dados auxiliar, o Censo da Educação Superior 2023.
+Nesse contexto, utilizamos a base de dados State of Data Brasil 2023, que analisa o mercado de trabalho e o perfil do profissional na área de dados. Ao analisar essa base, observamos problemas sociais, bem como a desigualdade social no mercado, prova da discrepância salarial entre grupos étnicos. Assim, buscamos associar esse problema com outra área social relevante, a educação, buscando dados sobre essa em uma base de dados auxiliar, o Cedra – Matrículas no ensino superior em 2019.
 
 ###    Contextualização
 
 A desigualdade na educação e a discrepância salarial entre grupos étnicos no mercado de dados no Brasil refletem um problema estrutural histórico do país. O acesso desigual à educação de qualidade e as barreiras socioeconômicas enfrentadas por determinados grupos impactam diretamente a inserção e a progressão na carreira dentro desse setor, que é um dos mais promissores e bem remunerados da economia digital. Assim, nosso modelo associa a desigualdade no mercado de trabalho com a desigualdade na educação, relacionando-as a partir da análise da dados e técnicas de aprendizado de máquina.
 
-Dessa maneira, as técnicas e análises do nosso modelo foram feitas usando como referência a base de dados State of Data Brasil 2023, relacionando-a ainda com o Censo da Educação Superior 2023. Assim, os atributos dessas bases geraram insights valiosos para abordarmos o problema da desigualdade na educação e no mercado de dados. 
+Dessa maneira, as técnicas e análises do nosso modelo foram feitas usando como referência a base de dados State of Data Brasil 2023, uma pesquisa anual que mapeia o mercado de dados e inteligência artificial no Brasil. Além dessa, utilizamos a base de dados auxiliar Cedra – Matrículas no ensino superior em 2019, que mostra a quantidade de alunos ingressos no ensino superior, bem como sua faixa etária e sua raça/cor/etnia, podendo assim associa-la a base de dados principal por meio do tema da desigualdade racial. 
+
+Nesse contexto, escolhemos especificamente a base de dados auxiliar de 2019, pois ela trás dados dos estudantes matriculados naquele ano. Nesse sentido, como o curso tem duração de 4 anos, tais estudantes ja estão inseridos no mercado de trabalho em 2023, aparecendo assim como dados estatísticos no State of Data 2023.
 
 ###    Problema
 
 O problema a ser analisado é a desigualdade social na área de dados. Nesse contexto grupos minoritários não recebem as mesmas oportunidades de educação e qualificação para o mercado de dados, surgindo assim uma discrepância salarial entre grupos étnicos. Dessa forma, faz-se necessário a pergunta “Como associar a desigualdade no mercado de trabalho com a desigualdade na educação na área de dados”.
 
-Feito tal pergunta, nosso grupo se apoiou nas bases de dados State of Data Brasil 2023 e Censo da Educação Superior 2023 para tentar respondê-la. Logo, nosso modelo se baseia em atributos dessas bases, gerando resultados a partir de técnicas de análise de dados e aprendizado de máquina. 
+Feito tal pergunta, nosso grupo se apoiou nas bases de dados State of Data Brasil 2023 e Cedra – Matrículas no ensino superior em 2019 para tentar respondê-la. Logo, nosso modelo se baseia em atributos dessas bases, gerando resultados a partir de técnicas de análise de dados e aprendizado de máquina. 
 
 ###    Objetivo geral
 
