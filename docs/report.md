@@ -60,6 +60,8 @@ O objetivo geral do trabalho é identificar relações entre a desigualdade étn
 
 Visto que o mercado de trabalho da área de dados apresenta desigualdades sociais relevantes, optamos por criar um modelo que busca relação dessas desigualdades com a educação no Brasil. Tal abordagem foi escolhida por conta da relevância social da área da educação junto à área de dados, que conversam com as ODSs 4 (educação de qualidade), 9 (indústria, inovação e infraestrutura) e 10 (redução das desigualdades), servindo de incentivo para o nosso trabalho.
 
+Além disso, ao explorar a interação entre desigualdade social e educação, buscamos contribuir para o entendimento de como a falta de acesso a uma educação de qualidade pode limitar as oportunidades no setor de dados, exacerbando as desigualdades já existentes. Esse estudo não só alinha-se com os ODSs, mas também visa identificar possíveis políticas e soluções que possam fomentar maior inclusão e diversidade na formação de profissionais na área de dados, promovendo um mercado de trabalho mais igualitário e acessível para todos os segmentos da sociedade.
+
 
 
 ##    Público alvo
