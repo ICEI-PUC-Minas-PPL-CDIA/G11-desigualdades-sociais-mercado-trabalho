@@ -129,6 +129,9 @@ _**Base de dados: State of Data Brasil 2023**_
 - **Outra**: 0.15%
 - **Prefiro não informar**: 0.30%
 
+![image](https://github.com/user-attachments/assets/2b12f062-4348-4008-9c96-650f49738bc6)
+
+
 **PCD:**
 - **Sim**: 1.96%
 - **Não**: 98.04%
