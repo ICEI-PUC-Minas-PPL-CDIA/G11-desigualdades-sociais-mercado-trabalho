@@ -117,6 +117,9 @@ _**Base de dados: State of Data Brasil 2023**_
 - **Prefiro não informar**: 0.8%
 - **Outro**: 0.2%
 
+![image](https://github.com/user-attachments/assets/0f96fe7f-2057-4741-bdae-22368dc9b14d)
+
+
 **Cor/Raça/Etnia:**
 - **Branca**: 72.4%
 - **Parda**: 22.4%
