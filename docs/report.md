@@ -160,6 +160,9 @@ _**Base de dados: Cedra – Matrículas no ensino superior em 2019**_
 - **Outras**: 19.16%
 - **Sem resposta**: 0.17%
 
+![image](https://github.com/user-attachments/assets/7ccc3357-ed14-443a-81ec-95353d77ba15)
+
+
 
 ## Preparação dos dados
 
