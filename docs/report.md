@@ -151,6 +151,9 @@ _**Base de dados: Cedra – Matrículas no ensino superior em 2019**_
 - **Feminino**: 57.39%
 - **Masculino**: 42.61%
 
+![image](https://github.com/user-attachments/assets/f36b1738-f3df-4483-beb2-356f953850ea)
+
+
 **Raça/Cor**
 - **Branca**: 42.52%
 - **Negra**: 38.15%
