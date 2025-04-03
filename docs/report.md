@@ -108,6 +108,9 @@ _**Base de dados: State of Data Brasil 2023**_
 - **Percentil 50 (Mediana)**: 31,00 anos
 - **Percentil 75 (Q3)**: 38,00 anos
 
+![image](https://github.com/user-attachments/assets/503bf541-4bf5-4d82-91a8-9d41018553c6)
+
+
 **Gênero:**
 - **Masculino**: 76.7%
 - **Feminino**: 22.2%
