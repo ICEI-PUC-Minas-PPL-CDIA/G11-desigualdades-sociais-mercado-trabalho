@@ -52,8 +52,10 @@ O objetivo geral do trabalho é identificar relações entre a desigualdade étn
 
 ####    Objetivos específicos
 
-- Relacionar dados de bases diferentes
-- Elaborar modelos que encontrem padrões nas bases de dados.
+- Como a faixa salarial média varia entre profissionais de diferentes gêneros em cada região do Brasil?
+- Existe disparidade salarial entre profissionais com o mesmo cargo e tempo de experiência, considerando gênero e raça?
+- Qual é a relação entre nível de escolaridade e faixa salarial em diferentes regiões do Brasil?
+
 
 
 ###    Justificativas
