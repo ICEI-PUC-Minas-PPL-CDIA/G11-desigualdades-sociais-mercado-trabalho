@@ -4,8 +4,8 @@ Este diretório mantém os artefatos relatório à modelagem de dados do projeto
 
 Os principais documentos a serem produzidos são:
 
-* `data_raw.csv`
-	* base principal original. pode ser em qualquer formato tabular
+* `base de dados principal`
+	* State of Data Brasil 2023 https://www.kaggle.com/datasets/datahackers/state-of-data-brazil-2023
 
 * `other_data_raw.csv`
 	* outras bases utilizadas no processo de enriquecimento
