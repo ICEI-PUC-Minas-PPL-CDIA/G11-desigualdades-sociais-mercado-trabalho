@@ -44,9 +44,9 @@ Dessa maneira, as técnicas e análises do nosso modelo foram feitas usando como
 
 ###    Problema
 
-O problema a ser analisado é a desigualdade social na área de dados. Nesse contexto grupos minoritários não recebem as mesmas oportunidades de educação e qualificação para o mercado de dados, surgindo assim uma discrepância salarial entre grupos étnicos. Dessa forma, faz-se necessário a pergunta “Como associar a desigualdade no mercado de trabalho com a desigualdade na educação na área de dados”.
+O problema a ser analisado é a desigualdade social na área de dados. Nesse contexto grupos minoritários não recebem as mesmas oportunidades no mercado de trabalho, surgindo assim uma discrepância salarial entre grupos étnicos. Dessa forma, faz-se necessário a pergunta “Como associar a desigualdade no mercado de trabalho com a discrepância salarial na área de dados”.
 
-Feito tal pergunta, nosso grupo se apoiou nas bases de dados State of Data Brasil 2023 e Cedra – Matrículas no ensino superior em 2019 para tentar respondê-la. Logo, nosso modelo se baseia em atributos dessas bases, gerando resultados a partir de técnicas de análise de dados e aprendizado de máquina. 
+Feito tal pergunta, nosso grupo se apoiou nas bases de dados State of Data Brasil 2023 e **falar da base de dados secundária* para tentar respondê-la. Logo, nosso modelo se baseia em atributos dessas bases, gerando resultados a partir de técnicas de análise de dados e aprendizado de máquina. 
 
 ###    Objetivo geral
 
