@@ -8,8 +8,11 @@ Iosef Juan Gonçalves Chebile Candido, ijgccandido@sga.pucminas.br
 
 ---
 
-Professores:
+**Professores:**
+
 Hugo Bastos de Paula
+
+Hayala Nepomuceno Curto
 
 ---
 
