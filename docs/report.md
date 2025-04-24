@@ -37,11 +37,10 @@ Nesse contexto, utilizamos a base de dados State of Data Brasil 2023, que analis
 
 ###    Contextualização
 
-A desigualdade na educação e a discrepância salarial entre grupos étnicos no mercado de dados no Brasil refletem um problema estrutural histórico do país. O acesso desigual à educação de qualidade e as barreiras socioeconômicas enfrentadas por determinados grupos impactam diretamente a inserção e a progressão na carreira dentro desse setor, que é um dos mais promissores e bem remunerados da economia digital. Assim, nosso modelo associa a desigualdade no mercado de trabalho com a desigualdade na educação, relacionando-as a partir da análise da dados e técnicas de aprendizado de máquina.
+A discrepância salarial entre grupos étnicos no mercado de dados no Brasil reflete um problema estrutural histórico do país. O acesso desigual à educação de qualidade, preconceitos e barreiras socioeconômicas enfrentadas por determinados grupos impactam diretamente a inserção e a progressão na carreira dentro desse setor, que é um dos mais promissores e bem remunerados da economia digital. Assim, nosso modelo associa as desigualdades no mercado de trabalho com a discrepância salarial, relacionando-as a partir da análise da dados e técnicas de aprendizado de máquina.
 
-Dessa maneira, as técnicas e análises do nosso modelo foram feitas usando como referência a base de dados State of Data Brasil 2023, uma pesquisa anual que mapeia o mercado de dados e inteligência artificial no Brasil. Além dessa, utilizamos a base de dados auxiliar Cedra – Matrículas no ensino superior em 2019, que mostra a quantidade de alunos ingressos no ensino superior, bem como sua faixa etária e sua raça/cor/etnia, podendo assim associa-la a base de dados principal por meio do tema da desigualdade racial. 
+Dessa maneira, as técnicas e análises do nosso modelo foram feitas usando como referência a base de dados State of Data Brasil 2023, uma pesquisa anual que mapeia o mercado de dados e inteligência artificial no Brasil. Além dessa, utilizamos a base de dados auxiliar **falar da base de dados secundária*
 
-Nesse contexto, escolhemos especificamente a base de dados auxiliar de 2019, pois ela trás dados dos estudantes matriculados naquele ano. Nesse sentido, como o curso tem duração de 4 anos, tais estudantes ja estão inseridos no mercado de trabalho em 2023, aparecendo assim como dados estatísticos no State of Data 2023.
 
 ###    Problema
 
