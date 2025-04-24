@@ -1,6 +1,6 @@
 # DESIGUALDADE SOCIAL NO MERCADO DE DADOS NO BRASIL
 
-O referente projeto tem como objetivo analisar um problema de relevância social usando técnicas de ciêcias de dados. Nesse contexto, a partir da análise da base de dados State of Data Brasil 2023, observamos o problema da discrepância salarial entre grupos étnicos e buscamos associa-lo à desigualdade na educação, usando uma base de dados auxiliar. Assim, nosso modelo utiliza técnicas de análise de dados e aprendizado de máquina para identificar relações entre a desigualdade étnica no mercado de trabalho e a desigualdade no acesso à educação na área de dados
+O referente projeto tem como objetivo analisar um problema de relevância social usando técnicas de ciências de dados. Nesse contexto, a partir da análise da base de dados State of Data Brasil 2023, observamos o problema da discrepância salarial entre grupos étnicos e buscamos associa-lo à desigualdades sociais, usando uma base de dados auxiliar. Assim, nosso modelo utiliza técnicas de análise de dados e aprendizado de máquina para identificar como as desigualdades sociais afetam o salário dos profissionais no mercado de trabalho da área de dados no Brasil. 
 
 ## Integrantes
 
