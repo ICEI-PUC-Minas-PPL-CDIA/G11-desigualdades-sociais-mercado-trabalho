@@ -11,6 +11,7 @@ O referente projeto tem como objetivo analisar um problema de relevância social
 ## Professor
 
 * Prof. Hugo Bastos de Paula
+* Prof. Hayala Nepomuceno Curto
 
 ## Instruções de utilização
 
