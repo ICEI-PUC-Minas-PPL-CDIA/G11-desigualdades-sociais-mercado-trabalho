@@ -68,7 +68,7 @@ Visto que o mercado de trabalho da área de dados apresenta desigualdades sociai
 
 ##    Público alvo
 
-O público-alvo da aplicação será o governo, especialmente os órgãos responsáveis pela formulação de políticas educacionais e sociais. Os usuários terão, em sua maioria, conhecimento técnico sobre o setor, mas com diferentes níveis de familiaridade com ferramentas tecnológicas. Eles buscam soluções que ajudem a embasar decisões para combater desigualdades e melhorar a educação, geralmente ocupando cargos intermediários ou superiores na hierarquia pública.
+O público-alvo da aplicação será o governo, especialmente os órgãos responsáveis pela formulação de políticas educacionais e sociais. Os usuários terão, em sua maioria, conhecimento técnico sobre o setor, mas com diferentes níveis de familiaridade com ferramentas tecnológicas. Eles buscam soluções que ajudem a embasar decisões para combater as desigualdades, geralmente ocupando cargos intermediários ou superiores na hierarquia pública.
 
 
 ## Análise exploratórida dos dados
