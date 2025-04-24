@@ -51,7 +51,7 @@ Feito tal pergunta, nosso grupo se apoiou nas bases de dados State of Data Brasi
 
 ###    Objetivo geral
 
-O objetivo geral do trabalho é identificar relações entre a desigualdade étnica no mercado de trabalho e a desigualdade no acesso à educação na área de dados. Dessa forma, para atingir tal objetivo, baseamos nos atributos: gênero, cor/raça/etnia, PCD, experiência profissional prejudicada, atividades profissionais, remuneração/salário, área de formação.
+O objetivo geral do trabalho é identificar desigualdades sociais na área de dados. Nessa perspectiva, nos orientamos a partir da pergunta "Como as desigualdades sociais afetam os salários dos profissionais no mercado de trabalho de dados?". Dessa forma, para responder tal pergunta, baseamos nos atributos: gênero, cor/raça/etnia, PCD, nível de ensino, área de formação, nível, tempo de experiência na área de dados e faixa salarial.
 
 ####    Objetivos específicos
 
