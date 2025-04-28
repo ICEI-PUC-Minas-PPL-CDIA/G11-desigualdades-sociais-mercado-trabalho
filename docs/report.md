@@ -109,6 +109,9 @@ _**Base de dados: State of Data Brasil 2023**_
 
 **Cor/Raça/Etnia:**
 
+![image](https://github.com/user-attachments/assets/341adab7-7162-43e9-9bd2-f842350462f0)
+
+
 **PCD:**
 
 **Estado onde mora:**
