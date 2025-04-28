@@ -17,5 +17,9 @@ dado o conjunto de dados em anexo, forneça um script em python para a visualiza
 
 dado o conjunto de dados em anexo, forneça um script em python que gere um gráfico em histograma dos dados 
 
+### Gráfico - Tempo de experiência - ChatGPT
+
+a partir do conjunto de dados em anexo, forneça um script em python que gere um gráfico de histograma para visualizar os dados do tempo de experiência dos profissionais
+
 
 
