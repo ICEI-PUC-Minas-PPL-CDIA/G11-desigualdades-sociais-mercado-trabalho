@@ -85,7 +85,6 @@ _**Base de dados: State of Data Brasil 2023**_
 | **P1_d** | PCD - Pessoa com deficiência (Sim/Não)                        | Categórico Binominal        |
 | **P1_i** | Estado onde mora | Categórico Multivalorado |
 | **P1_l** | Nível de ensino                                           | Categórico Multivalorado  |
-| **P1_m** | Área de Formação | Categórico Multivalorado |
 | **P2_g** | Nível na empresa | Categórico Multivalorado |
 | **P2_h** | Faixa salarial                                           | Numérico Discreto              |
 |**P2_i** | Tempo de experiência na área de dados | Numérico Discreto |
@@ -123,8 +122,6 @@ _**Base de dados: State of Data Brasil 2023**_
 
 ![image](https://github.com/user-attachments/assets/3e0529bf-526d-4014-9641-38edf069642f)
 
-
-**Área de Formação:**
 
 **Nível na empresa:**
 
