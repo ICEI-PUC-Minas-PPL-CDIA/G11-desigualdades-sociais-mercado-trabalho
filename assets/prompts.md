@@ -12,3 +12,10 @@ Elabore perguntas interessantes, de relevância social, que podem ser respondida
 ### Gráfico - Estados - DeepSeek
 
 dado o conjunto de dados em anexo, forneça um script em python para a visualização dos dados em um gráfico de barra
+
+### Gráfico - Faixa Salarial - ChatGPT
+
+dado o conjunto de dados em anexo, forneça um script em python que gere um gráfico em histograma dos dados 
+
+
+
