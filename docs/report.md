@@ -104,6 +104,9 @@ _**Base de dados: State of Data Brasil 2023**_
 
 **Gênero:**
 
+![image](https://github.com/user-attachments/assets/da089828-b5e7-46ff-8acf-a91b65334279)
+
+
 **Cor/Raça/Etnia:**
 
 **PCD:**
