@@ -125,6 +125,9 @@ _**Base de dados: State of Data Brasil 2023**_
 
 **Nível na empresa:**
 
+![image](https://github.com/user-attachments/assets/edc6e967-9f53-4ef7-8161-713c03c8afae)
+
+
 **Faixa Salarial:**
 
 **Tempo de experiência:**
