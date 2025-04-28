@@ -103,38 +103,23 @@ _**Base de dados: State of Data Brasil 2023**_
 
 
 **Gênero:**
-- **Masculino**: 76.7%
-- **Feminino**: 22.2%
-- **Prefiro não informar**: 0.8%
-- **Outro**: 0.2%
-
-![image](https://github.com/user-attachments/assets/0f96fe7f-2057-4741-bdae-22368dc9b14d)
-
 
 **Cor/Raça/Etnia:**
-- **Branca**: 72.4%
-- **Parda**: 22.4%
-- **Preta**: 4%
-- **Amarela**: 0.9%
-- **Indígena**: 0.15%
-- **Outra**: 0.15%
-- **Prefiro não informar**: 0.30%
-
-![image](https://github.com/user-attachments/assets/2b12f062-4348-4008-9c96-650f49738bc6)
-
 
 **PCD:**
-- **Sim**: 1.96%
-- **Não**: 98.04%
+
+**Estado onde mora:**
 
 **Nível de ensino:**
-- **Graduação/Bacharelado**: 52.5%
-- **Pós-graduação**: 27.5%
-- **Mestrado**: 12.5%
-- **Estudante de graduação**: 5%
-- **Doutorado em PHD**: 1.5%
-- **Não tenho graduação formal**: 0.75%
-- **Prefiro não informar**: 0.25%
+
+**Área de Formação:**
+
+**Nível na empresa:**
+
+**Faixa Salarial:**
+
+**Tempo de experiência:**
+
 
 _**Base de dados: incluir base de dados auxiliar**_
 
