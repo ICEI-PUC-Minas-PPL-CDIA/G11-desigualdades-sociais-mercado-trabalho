@@ -98,16 +98,8 @@ _**Base de dados: incluir base de dados auxiliar**_
 _**Base de dados: State of Data Brasil 2023**_
 
 **Idade:**
-- **Idade Média**: 32,38 anos
-- **Desvio Padrão**: 8,40 anos
-- **Idade Mínima**: 18 anos
-- **Idade Máxima**: 73 anos
-- **Idade Mediana**: 31,00 anos
-- **Percentil 25 (Q1)**: 26,00 anos
-- **Percentil 50 (Mediana)**: 31,00 anos
-- **Percentil 75 (Q3)**: 38,00 anos
 
-![image](https://github.com/user-attachments/assets/503bf541-4bf5-4d82-91a8-9d41018553c6)
+![image](https://github.com/user-attachments/assets/f2dfe131-361e-4d6f-9225-b28b5f58040c)
 
 
 **Gênero:**
