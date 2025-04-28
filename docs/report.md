@@ -86,14 +86,7 @@ _**Base de dados: State of Data Brasil 2023**_
 | **P1_l** | Nível de ensino                                           | Categórico Multivalorado  |
 | **P2_h** | Faixa salarial                                           | Qualitativo               |
 
-_**Base de dados: Cedra – Matrículas no ensino superior em 2019**_
-
-| Atributo       | Descrição                                                                 | Tipo                  |
-|---------------|---------------------------------------------------------------------------|-----------------------|
-| Rede de Ensino | Indica a rede de ensino frequentada pelo indivíduo (ex: Especial, Pública, Privada) | Categórico Multivalorado  |
-| Faixa Etária   | Representa a faixa etária dos indivíduos (ex: Até 18, 19-24, 25-30)       | Qualitativo  |
-| Sexo          | Identifica o sexo do indivíduo (Feminino, Masculino)                      | Categórico Multivalorado  |
-| Raça/Cor      | Representa a classificação de raça/cor do indivíduo conforme critérios oficiais (ex: Branca, Negra, Outras, Sem Resposta) | Categórico Multivalorado  |
+_**Base de dados: incluir base de dados auxiliar**_
 
 
 ###    Descrição de dados
@@ -147,23 +140,7 @@ _**Base de dados: State of Data Brasil 2023**_
 - **Não tenho graduação formal**: 0.75%
 - **Prefiro não informar**: 0.25%
 
-_**Base de dados: Cedra – Matrículas no ensino superior em 2019**_
-
-**Sexo**
-- **Feminino**: 57.39%
-- **Masculino**: 42.61%
-
-![image](https://github.com/user-attachments/assets/f36b1738-f3df-4483-beb2-356f953850ea)
-
-
-**Raça/Cor**
-- **Branca**: 42.52%
-- **Negra**: 38.15%
-- **Outras**: 19.16%
-- **Sem resposta**: 0.17%
-
-![image](https://github.com/user-attachments/assets/7ccc3357-ed14-443a-81ec-95353d77ba15)
-
+_**Base de dados: incluir base de dados auxiliar**_
 
 
 ## Preparação dos dados
