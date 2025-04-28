@@ -114,6 +114,9 @@ _**Base de dados: State of Data Brasil 2023**_
 
 **PCD:**
 
+![image](https://github.com/user-attachments/assets/8a050aee-02c4-4b94-8b86-a3a06f940ae1)
+
+
 **Estado onde mora:**
 
 **Nível de ensino:**
