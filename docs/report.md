@@ -79,12 +79,16 @@ _**Base de dados: State of Data Brasil 2023**_
 
 | Código          | Descrição                                              | Tipo                      |
 |----------------|------------------------------------------------------|---------------------------|
-| **P1_a (Idade)** | Idade do respondente                                  | Inteiro                   |
-| **P1_b (Gênero)** | Identidade de gênero do respondente                   | Categórico Multivalorado      |
-| **P1_c (Cor/Raça/Etnia)** | Auto declaração de raça/etnia                 | Categórico Multivalorado  |
-| **P1_d (PCD)** | Pessoa com deficiência (Sim/Não)                        | Categórico Binário        |
+| **P1_a** | Idade                                   | Numérico                   |
+| **P1_b** | Gênero                    | Categórico Binominal      |
+| **P1_c** | Cor/Raça/Etnia                 | Categórico Multivalorado  |
+| **P1_d** | PCD - Pessoa com deficiência (Sim/Não)                        | Categórico Binominal        |
+| **P1_i** | Estado onde mora | Categórico Multivalorado |
 | **P1_l** | Nível de ensino                                           | Categórico Multivalorado  |
-| **P2_h** | Faixa salarial                                           | Qualitativo               |
+| **P1_m** | Área de Formação | Categórico Multivalorado |
+| **P2_g** | Nível na empresa | Categórico Multivalorado |
+| **P2_h** | Faixa salarial                                           | Numérico Discreto              |
+|**P2_i** | Tempo de experiência na área de dados | Numérico Discreto |
 
 _**Base de dados: incluir base de dados auxiliar**_
 
