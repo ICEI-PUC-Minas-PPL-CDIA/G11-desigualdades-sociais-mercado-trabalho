@@ -118,6 +118,10 @@ _**Base de dados: State of Data Brasil 2023**_
 
 **Estado onde mora:**
 
+![image](https://github.com/user-attachments/assets/b6398acd-9dd8-4663-ab9c-3fbda25ddeaa)
+
+
+
 **Nível de ensino:**
 
 ![image](https://github.com/user-attachments/assets/3e0529bf-526d-4014-9641-38edf069642f)
