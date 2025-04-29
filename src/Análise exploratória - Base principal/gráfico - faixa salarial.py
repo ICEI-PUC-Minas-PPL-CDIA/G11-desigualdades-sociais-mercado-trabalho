@@ -1,31 +1,30 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import re
 
-# Carregar o arquivo Excel
-arquivo = '/mnt/data/Pasta1 - referência.xlsx'
-df = pd.read_excel(arquivo)
+# Caminho para o arquivo
+file_path = "faixa salarial.xlsx"
 
-# Acessar a coluna corretamente
-coluna = ('P2_h ', 'Faixa salarial')
-dados = df[coluna].dropna()
 
-# Função para calcular a média da faixa salarial
-def extrair_media(faixa):
-    numeros = list(map(int, re.findall(r'\d+', faixa)))
-    if len(numeros) == 2:
-        return sum(numeros) / 2
-    return None
+# Carregar os dados
+df = pd.read_excel(file_path, sheet_name='Planilha1')
 
-# Aplicar a função
-medias = dados.apply(extrair_media).dropna()
+# Ajustar o nome da coluna
+coluna_faixa = df.columns[0]
 
-# Plotar o histograma
-plt.figure(figsize=(10,6))
-plt.hist(medias, bins=10, edgecolor='black')
-plt.title('Histograma das Faixas Salariais (Médias)')
-plt.xlabel('Salário médio (R$)')
-plt.ylabel('Frequência')
-plt.grid(True)
+# Remover valores nulos
+df = df.dropna(subset=[coluna_faixa])
+
+# Contar a ocorrência de cada faixa salarial
+contagem_faixas = df[coluna_faixa].value_counts().sort_index()
+
+# Criar o gráfico de barras
+plt.figure(figsize=(10, 6))
+contagem_faixas.plot(kind='bar')
+plt.title('Distribuição de Faixas Salariais')
+plt.xlabel('Faixa Salarial')
+plt.ylabel('Quantidade de Pessoas')
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+
+# Exibir o gráfico
 plt.show()
-
