@@ -170,6 +170,10 @@ _**Existe disparidade salarial entre profissionais com o mesmo nível e tempo de
 
 ![image](https://github.com/user-attachments/assets/b091da52-4ff3-4fca-90ba-86c05058632c)
 
+**Salário Médio Por Nível De Cargo E Raça/Cor/Etnia**
+
+![image](https://github.com/user-attachments/assets/0d52d33f-c36d-497f-ae91-210780812c1f)
+
 
 
 ### Pergunta 3
