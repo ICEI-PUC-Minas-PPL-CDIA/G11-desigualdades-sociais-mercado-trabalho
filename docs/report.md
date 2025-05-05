@@ -159,6 +159,7 @@ _**Base de dados: incluir base de dados auxiliar**_
 | **P1_b** | Gênero                    | Categórico Binominal      |
 | **P1_c** | Cor/Raça/Etnia                 | Categórico Multivalorado  |
 | **P2_g** | Nível na empresa | Categórico Multivalorado |
+| **P2_h** | Faixa salarial                                           | Numérico Discreto              |
 |**P2_i** | Tempo de experiência na área de dados | Numérico Discreto |
 
 
