@@ -55,7 +55,7 @@ O objetivo geral do trabalho é identificar desigualdades sociais na área de da
 ####    Objetivos específicos
 
 - Como a faixa salarial média varia entre profissionais de diferentes gêneros em cada região do Brasil?
-- Existe disparidade salarial entre profissionais com o mesmo cargo e tempo de experiência, considerando gênero e raça?
+- Existe disparidade salarial entre profissionais com o mesmo nível e tempo de experiência, considerando gênero e raça?
 - Qual é a relação entre nível de escolaridade e faixa salarial em diferentes regiões do Brasil?
 
 
@@ -144,6 +144,26 @@ _**Base de dados: State of Data Brasil 2023**_
 
 
 _**Base de dados: incluir base de dados auxiliar**_
+
+
+### Pergunta 1
+
+
+### Pergunta 2
+
+**Existe disparidade salarial entre profissionais com o mesmo nível e tempo de experiência, considerando gênero e raça?**
+
+
+| Código          | Descrição                                              | Tipo                      |
+|----------------|------------------------------------------------------|---------------------------|
+| **P1_b** | Gênero                    | Categórico Binominal      |
+| **P1_c** | Cor/Raça/Etnia                 | Categórico Multivalorado  |
+| **P2_g** | Nível na empresa | Categórico Multivalorado |
+|**P2_i** | Tempo de experiência na área de dados | Numérico Discreto |
+
+
+
+### Pergunta 3
 
 
 ## Preparação dos dados
