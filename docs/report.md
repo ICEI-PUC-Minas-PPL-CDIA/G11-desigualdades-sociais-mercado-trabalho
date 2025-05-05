@@ -151,7 +151,7 @@ _**Base de dados: incluir base de dados auxiliar**_
 
 ### Pergunta 2
 
-**Existe disparidade salarial entre profissionais com o mesmo nível e tempo de experiência, considerando gênero e raça?**
+_**Existe disparidade salarial entre profissionais com o mesmo nível e tempo de experiência, considerando gênero e raça?**_
 
 
 | Código          | Descrição                                              | Tipo                      |
@@ -162,6 +162,11 @@ _**Base de dados: incluir base de dados auxiliar**_
 | **P2_h** | Faixa salarial                                           | Numérico Discreto              |
 |**P2_i** | Tempo de experiência na área de dados | Numérico Discreto |
 
+**Boxplots de Salário por Gênero e Nível**
+
+![image](https://github.com/user-attachments/assets/8de0a19c-11f1-4daf-a1eb-d043a215c296)
+
+A partir do gráfico gerado, não se pode confirmar disparidade por gênero, porém é notável o aumento de salário a partir do aumento de nível na empresa.
 
 
 ### Pergunta 3
