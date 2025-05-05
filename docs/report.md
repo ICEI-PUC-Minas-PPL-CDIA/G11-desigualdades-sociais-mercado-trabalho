@@ -134,6 +134,9 @@ _**Base de dados: State of Data Brasil 2023**_
 
 **Faixa Salarial:**
 
+![image](https://github.com/user-attachments/assets/f566c827-1f11-4b7d-9930-59af63429472)
+
+
 **Tempo de experiência:**
 
 
