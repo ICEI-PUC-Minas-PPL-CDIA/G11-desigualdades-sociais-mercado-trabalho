@@ -174,6 +174,10 @@ _**Existe disparidade salarial entre profissionais com o mesmo nível e tempo de
 
 ![image](https://github.com/user-attachments/assets/0d52d33f-c36d-497f-ae91-210780812c1f)
 
+**Mapa De Calor: Salário Médio Por Raça × Gênero × Nível**
+
+![image](https://github.com/user-attachments/assets/3bc4054d-1a73-4940-b8f9-ccdcaf10211e)
+
 
 
 ### Pergunta 3
