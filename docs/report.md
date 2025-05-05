@@ -139,6 +139,9 @@ _**Base de dados: State of Data Brasil 2023**_
 
 **Tempo de experiência:**
 
+![image](https://github.com/user-attachments/assets/4ad4b9e2-65db-4600-b695-4588c253e8d5)
+
+
 
 _**Base de dados: incluir base de dados auxiliar**_
 
