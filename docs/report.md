@@ -166,7 +166,10 @@ _**Existe disparidade salarial entre profissionais com o mesmo nível e tempo de
 
 ![image](https://github.com/user-attachments/assets/8de0a19c-11f1-4daf-a1eb-d043a215c296)
 
-A partir do gráfico gerado, não se pode confirmar disparidade por gênero, porém é notável o aumento de salário a partir do aumento de nível na empresa.
+**Salário Médio Por Nível De Cargo Gênero**
+
+![image](https://github.com/user-attachments/assets/b091da52-4ff3-4fca-90ba-86c05058632c)
+
 
 
 ### Pergunta 3
