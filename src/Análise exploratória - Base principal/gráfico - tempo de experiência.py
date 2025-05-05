@@ -1,25 +1,51 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 import seaborn as sns
+import matplotlib.pyplot as plt
 
-# Ler o arquivo Excel
-arquivo = '/mnt/data/Pasta1 - referência.xlsx'
-df = pd.read_excel(arquivo)
+# Dados da contagem final
+dados = {
+    "Menos de 1 ano": 476,
+    "de 1 a 2 anos": 1201,
+    "de 3 a 4 anos": 1109,
+    "de 4 a 6 anos": 463,
+    "de 7 a 10 anos": 429,
+    "Mais de 10 anos": 557,
+    "Não tenho experiência na área de dados": 162
+}
 
-# Exibir as primeiras linhas para entender a estrutura
-print(df.head())
+# Converter para DataFrame
+df_grafico = pd.DataFrame(list(dados.items()), columns=["Faixa de Experiência", "Quantidade"])
 
-# Supondo que a coluna de interesse se chame 'Tempo de Experiência' (ajuste se necessário)
-coluna_experiencia = 'Tempo de Experiência'  # altere conforme o nome exato da coluna no seu arquivo
+# Definir a ordem desejada
+ordem = [
+    "Menos de 1 ano",
+    "de 1 a 2 anos",
+    "de 3 a 4 anos",
+    "de 4 a 6 anos",
+    "de 7 a 10 anos",
+    "Mais de 10 anos",
+    "Não tenho experiência na área de dados"
+]
+df_grafico = df_grafico.set_index("Faixa de Experiência").loc[ordem].reset_index()
 
-# Plotar o histograma com Seaborn
+# Criar o gráfico com seaborn
 plt.figure(figsize=(10, 6))
-sns.histplot(df[coluna_experiencia].dropna(), bins=10, kde=True, color='skyblue', edgecolor='black')
+sns.set(style="whitegrid")
+grafico = sns.barplot(
+    x="Quantidade",
+    y="Faixa de Experiência",
+    data=df_grafico,
+    palette="viridis"
+)
 
-plt.title('Histograma do Tempo de Experiência dos Profissionais', fontsize=16)
-plt.xlabel('Tempo de Experiência (anos)', fontsize=14)
-plt.ylabel('Número de Profissionais', fontsize=14)
-plt.grid(True)
+# Título e rótulos
+plt.title("Distribuição de Experiência na Área de Dados", fontsize=14)
+plt.xlabel("Quantidade de Respostas")
+plt.ylabel("Faixa de Experiência")
+
+# Adicionar os valores ao lado das barras
+for index, value in enumerate(df_grafico["Quantidade"]):
+    plt.text(value + 10, index, str(value), va='center')
+
 plt.tight_layout()
 plt.show()
-
