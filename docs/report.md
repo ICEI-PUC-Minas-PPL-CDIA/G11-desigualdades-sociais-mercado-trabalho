@@ -182,6 +182,14 @@ _**Existe disparidade salarial entre profissionais com o mesmo nível e tempo de
 
 ### Pergunta 3
 
+_**Qual é a relação entre nível de escolaridade e faixa salarial em diferentes regiões do Brasil?**_
+
+| Código          | Descrição                                              | Tipo                      |
+|----------------|------------------------------------------------------|---------------------------|
+| **P1_i** | Estado onde mora | Categórico Multivalorado |
+| **P1_l** | Nível de ensino                                           | Categórico Multivalorado  |
+| **P2_h** | Faixa salarial                                           | Numérico Discreto              |
+
 
 ## Preparação dos dados
 
