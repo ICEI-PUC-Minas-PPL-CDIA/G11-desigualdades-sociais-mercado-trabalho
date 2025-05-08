@@ -190,6 +190,11 @@ _**Qual é a relação entre nível de escolaridade e faixa salarial em diferent
 | **P1_l** | Nível de ensino                                           | Categórico Multivalorado  |
 | **P2_h** | Faixa salarial                                           | Numérico Discreto              |
 
+**Heatmap: Região Sudeste**
+
+![image](https://github.com/user-attachments/assets/1f1b926a-43a2-47c1-8c03-19cff44a471d)
+
+
 
 ## Preparação dos dados
 
