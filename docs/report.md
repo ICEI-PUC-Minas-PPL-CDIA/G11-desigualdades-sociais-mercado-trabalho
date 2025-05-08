@@ -235,12 +235,21 @@ _**Qual é a relação entre nível de escolaridade e faixa salarial em diferent
 
 ## Preparação dos dados
 
-A preparação dos dados consiste dos seguintes passos:
+### Base de dados original 
 
-> - Seleção dos atributos
-> - Tratamentos dos valores faltantes ou omissos: remoção, substituição, indução, etc.
-> - Tratamento dos valores inconsistentes: conversão, remoção de dados duplicados, remoção ou tratamento de ouliers.
-> - Conversão de dados: p. ex. numérico para categórico, categórico para binário, etc.
+### Seleção dos atributos
+
+Criação de outra planilha no Excel, contendo os atributos principais:
+
+### Limpeza e transformação de dados: 
+
+- Tratamento dos valores nulos: -1512 linhas 
+- Tratamento dos outliers: -142 linhas 
+- Conversão dos dados da coluna “Faixa salarial” para números contínuos 
+- Conversão dos dados da coluna “Tempo de experiência” para números contínuos
+
+### Base de dados tratada
+
 
 
 ## Indução de modelos
