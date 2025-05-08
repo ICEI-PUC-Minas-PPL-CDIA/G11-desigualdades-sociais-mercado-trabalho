@@ -206,6 +206,11 @@ _**Qual é a relação entre nível de escolaridade e faixa salarial em diferent
 
 ![image](https://github.com/user-attachments/assets/c70fb0db-c327-4a20-acca-e8ae77710e63)
 
+**Heatmap: Região Centro-Oeste**
+
+![image](https://github.com/user-attachments/assets/5c2818e2-8fae-46d8-a240-37107b6beead)
+
+
 
 
 
