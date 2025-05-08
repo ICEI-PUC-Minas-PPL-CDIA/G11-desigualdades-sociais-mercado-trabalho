@@ -198,6 +198,11 @@ _**Qual é a relação entre nível de escolaridade e faixa salarial em diferent
 
 ![image](https://github.com/user-attachments/assets/b7c5989c-f3ad-4d98-9d67-407e0ad607b2)
 
+**Heatmap: Região Sul**
+
+![image](https://github.com/user-attachments/assets/e4d38574-dcd9-4f46-b596-91358cde71f2)
+
+
 
 
 ## Preparação dos dados
