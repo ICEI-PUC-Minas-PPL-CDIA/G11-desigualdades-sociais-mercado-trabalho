@@ -148,6 +148,19 @@ _**Base de dados: incluir base de dados auxiliar**_
 
 ### Pergunta 1
 
+_**Como a faixa salarial média varia entre profissionais de diferentes gêneros em cada região do Brasil?**_
+
+
+| Código          | Descrição                                              | Tipo                      |
+|----------------|------------------------------------------------------|---------------------------|
+| **P1_b** | Gênero                    | Categórico Binominal      |
+| **P1_i** | Estado onde mora | Categórico Multivalorado |
+| **P2_h** | Faixa salarial                                           | Numérico Discreto              |
+
+**Salário Médio por Gênero em cada região do Brasil**
+
+![image](https://github.com/user-attachments/assets/1b7c5711-ade2-4fa7-b767-be6335694478)
+
 
 ### Pergunta 2
 
