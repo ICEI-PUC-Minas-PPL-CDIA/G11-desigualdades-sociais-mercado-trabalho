@@ -250,7 +250,7 @@ _**Base de dados: State of Data Brasil 2023**_
 
 ### Pergunta 4
 
-_**Existe correlação entre o IDH do estado e o salário médio dos profissionais de dados que residem nesses estados?**_
+_**Existe relação entre o IDH do estado e o salário médio dos profissionais de dados que residem nesses estados?**_
 
 _**Base de dados principal Tratada**_
 
@@ -259,6 +259,11 @@ _**Base de dados principal Tratada**_
 | **P1_i** | Estado onde mora | Categórico Multivalorado |
 | Salário (R$) | Salário do respondente | Numérico |
 | IDH do estado | Índice de desenvolvimento humano do estado onde mora o respondente | Numérico |
+
+**Gráfico de dispersão: IDH x Salário Médio**
+
+![image](https://github.com/user-attachments/assets/77a7db08-76c1-4be3-9d45-3a90e24a5372)
+
 
 
 ## Preparação dos dados
