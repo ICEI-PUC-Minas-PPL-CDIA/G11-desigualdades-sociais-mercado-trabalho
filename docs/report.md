@@ -59,6 +59,7 @@ O objetivo geral do trabalho é identificar desigualdades sociais na área de da
 - Como a faixa salarial média varia entre profissionais de diferentes gêneros em cada região do Brasil?
 - Existe disparidade salarial entre profissionais com o mesmo nível e tempo de experiência, considerando gênero e raça?
 - Qual é a relação entre nível de escolaridade e faixa salarial em diferentes regiões do Brasil?
+- Existe correlação entre o IDH do estado e o salário médio dos profissionais de dados que residem nesses estados?
 
 
 
@@ -90,8 +91,6 @@ _**Base de dados: State of Data Brasil 2023**_
 | **P2_g** | Nível na empresa | Categórico Multivalorado |
 | **P2_h** | Faixa salarial                                           | Numérico Discreto              |
 |**P2_i** | Tempo de experiência na área de dados | Numérico Discreto |
-
-_**Base de dados: incluir base de dados auxiliar**_
 
 
 ###    Descrição de dados
@@ -145,12 +144,11 @@ _**Base de dados: State of Data Brasil 2023**_
 
 
 
-_**Base de dados: incluir base de dados auxiliar**_
-
-
 ### Pergunta 1
 
 _**Como a faixa salarial média varia entre profissionais de diferentes gêneros em cada região do Brasil?**_
+
+_**Base de dados: State of Data Brasil 2023**_
 
 
 | Código          | Descrição                                              | Tipo                      |
@@ -167,6 +165,8 @@ _**Como a faixa salarial média varia entre profissionais de diferentes gêneros
 ### Pergunta 2
 
 _**Existe disparidade salarial entre profissionais com o mesmo nível e tempo de experiência, considerando gênero e raça?**_
+
+_**Base de dados: State of Data Brasil 2023**_
 
 
 | Código          | Descrição                                              | Tipo                      |
@@ -198,6 +198,8 @@ _**Existe disparidade salarial entre profissionais com o mesmo nível e tempo de
 ### Pergunta 3
 
 _**Qual é a relação entre nível de escolaridade e faixa salarial em diferentes regiões do Brasil?**_
+
+_**Base de dados: State of Data Brasil 2023**_
 
 | Código          | Descrição                                              | Tipo                      |
 |----------------|------------------------------------------------------|---------------------------|
@@ -246,6 +248,16 @@ _**Qual é a relação entre nível de escolaridade e faixa salarial em diferent
 
 ![image](https://github.com/user-attachments/assets/3a7aa66c-90be-494e-8bd6-1e561823d5b2)
 
+### Pergunta 4
+
+_**Existe correlação entre o IDH do estado e o salário médio dos profissionais de dados que residem nesses estados?**_
+
+_**Base de dados principal Tratada**_
+
+| Código          | Descrição                                              | Tipo                      |
+|----------------|------------------------------------------------------|---------------------------|
+| Salário (R$) | Salário do respondente | Numérico |
+| IDH do estado | Índice de desenvolvimento humano do estado onde mora o respondente | Numérico |
 
 
 ## Preparação dos dados
