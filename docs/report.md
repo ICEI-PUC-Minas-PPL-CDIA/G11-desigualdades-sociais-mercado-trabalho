@@ -256,6 +256,7 @@ _**Base de dados principal Tratada**_
 
 | Código          | Descrição                                              | Tipo                      |
 |----------------|------------------------------------------------------|---------------------------|
+| **P1_i** | Estado onde mora | Categórico Multivalorado |
 | Salário (R$) | Salário do respondente | Numérico |
 | IDH do estado | Índice de desenvolvimento humano do estado onde mora o respondente | Numérico |
 
