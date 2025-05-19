@@ -44,9 +44,9 @@ Dessa maneira, as técnicas e análises do nosso modelo foram feitas usando como
 
 ###    Problema
 
-O problema a ser analisado é a desigualdade social na área de dados. Nesse contexto grupos minoritários não recebem as mesmas oportunidades no mercado de trabalho, surgindo assim uma discrepância salarial entre grupos étnicos. Dessa forma, elaboramos dois modelos de Machine Learning, que foram induzidos a partir de duas perguntas: "É possível prever o nível de cargo (Júnior, Pleno, Sênior) com base em idade, tempo de experiência, salário, escolaridade, etc.?" e “Como associar a desigualdade no mercado de trabalho com a discrepância salarial na área de dados”, associadas respectivamente aos modelos 1 e 2.
+O problema a ser analisado é a desigualdade social na área de dados. Nesse contexto grupos minoritários não recebem as mesmas oportunidades no mercado de trabalho, surgindo assim uma discrepância salarial entre grupos étnicos. Dessa forma, elaboramos dois modelos de Machine Learning, que foram induzidos a partir de uma pergunta: “Como associar a desigualdade no mercado de trabalho com a discrepância salarial na área de dados”.
 
-Feito tais perguntas, nosso grupo se apoiou na base de dados State of Data Brasil 2023 e na base de dados do IBGE para tentar respondê-la. Logo, nosso modelo se baseia em atributos dessas bases, gerando resultados a partir de técnicas de análise de dados e aprendizado de máquina. 
+Feito tal pergunta, nosso grupo se apoiou na base de dados State of Data Brasil 2023 e na base de dados do IBGE para tentar respondê-la. Logo, nossos modelos se baseiam em atributos dessas bases, gerando resultados a partir de técnicas de análise de dados e aprendizado de máquina. 
 
 ###    Objetivo geral
 
