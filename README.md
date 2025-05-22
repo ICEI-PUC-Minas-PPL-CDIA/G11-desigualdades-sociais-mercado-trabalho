@@ -5,7 +5,6 @@ O referente projeto tem como objetivo analisar um problema de relevância social
 ## Integrantes
 
 * Eduardo Velloso Landeiro
-* Iosef Juan Gonçalves Chebile Candido
 * Rafael Silvestre da Silva
 
 ## Professor
