@@ -359,6 +359,16 @@ Repita os passos anteriores para o segundo modelo.
 	- Recall (0.81): De todos os trabalhadores com salário "Alto", o modelo acerta 81%.
 	- F1-score (0.82): Desempenho forte nessa classe, indicando que o modelo está mais confiável para salários altos.
 
+![image](https://github.com/user-attachments/assets/323d5482-f476-492f-bed9-4fe357d33371)
+
+- Verdadeiro Positivo (VP) = 103 → O modelo previu "Alto" e era realmente "Alto"
+
+- Verdadeiro Negativo (VN) = 181 → O modelo previu "Baixo" e era realmente "Baixo"
+
+- Falso Positivo (FP) = 42 → O modelo previu "Alto", mas era "Baixo"
+
+- Falso Negativo (FN) = 38 → O modelo previu "Baixo", mas era "Alto"
+
 
 ### Interpretação do modelo 1
 
