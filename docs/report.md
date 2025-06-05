@@ -67,7 +67,7 @@ Visto que o mercado de trabalho da área de dados apresenta desigualdades sociai
 
 
 
-##    Público alvo
+###    Público alvo
 
 O público-alvo da aplicação será o governo, especialmente os órgãos responsáveis pela formulação de políticas educacionais e sociais. Os usuários terão, em sua maioria, conhecimento técnico sobre o setor, mas com diferentes níveis de familiaridade com ferramentas tecnológicas. Eles buscam soluções que ajudem a embasar decisões para combater as desigualdades, geralmente ocupando cargos intermediários ou superiores na hierarquia pública.
 
@@ -262,7 +262,7 @@ _**Base de dados principal Tratada**_
 
 ![image](https://github.com/user-attachments/assets/77a7db08-76c1-4be3-9d45-3a90e24a5372)
 
-
+---
 
 ## Preparação dos dados
 
@@ -281,18 +281,18 @@ Criação de outra planilha no Excel, contendo os atributos principais:
 
 ### Base de dados tratada
 
-
+--- 
 
 ## Indução de modelos
 
-### Modelo 1: Algoritmo
+### Modelo 1: Random Forest Classifier 
 
-Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore de decisão, rede neural, SVM, etc.
-Justifique a escolha do modelo.
-Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation).
-Descreva os parâmetros utilizados. 
-Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens
-com o fluxo de processamento.
+#### Justificativa do Modelo 
+
+Foi usado o modelo Random Forest Classifier com o objetivo de prever o salário dos respondentes em alto ou baixo. Desse modo, o modelo se baseia em outros atributos da base de dados como idade, raça, gênero, nível de escolaridade e tempo de experiência na área, para prever o salário do trabalhador. Assim, o modelo reflete o que acontece na realidade, na qual fatores sociais influenciam no salário. 
+
+Dessa forma, o Random Forest foi escolhido por ser um modelo mais robusto, com o objetivo de alcançar uma acurácia melhor. Além disso, é um modelo que não exigiu muitas mudanças e transformações na base de dados o que facilita sua aplicação e interpretação. Assim, mais do que apenas prever salários, o modelo ajuda a revelar padrões sociais importantes que podem servir de base para reflexões e ações voltadas à equidade.
+
 
 ### Modelo 2: Algoritmo
 
