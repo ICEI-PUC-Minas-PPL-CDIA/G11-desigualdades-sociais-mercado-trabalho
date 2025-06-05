@@ -373,10 +373,26 @@ Repita os passos anteriores para o segundo modelo.
 
 ### Interpretação do modelo 1
 
-Apresente os parâmetros do modelo obtido. Tentre mostrar as regras que são utilizadas no
-processo de 'raciocínio' (*reasoning*) do sistema inteligente. Utilize medidas como 
-o *feature importances* para tentar entender quais atributos o modelo se baseia no
-processo de tomada de decisão.
+#### Overfitting 
+
+Após realizar os primeiros testes no modelo Random Forest, foi detectado um overfitting (discrepância da acurácia de treinamento comparada à acurácia de teste). No caso do nosso modelo, o resultado foi o seguinte:
+
+**Acurácia (Treino):** 0.95
+
+**Acurácia (Teste):** 0.75
+
+Dessa maneira, o modelo aprendeu os dados de treinamento demais, a ponto de não conseguir generalizar bem para os dados de teste. Assim, tais medidas foram tomadas: 
+
+- Diminuir a base de teste de **30%** para **10%**: assim, o modelo tem mais dados para aprender
+- Implementar o parâmetro `max_depth`, que limita a profundidade de cada árvore 
+- Implementar o parâmetro `min_samples_split`, na qual uma divisão interna da árvore (um nó) só será feita se houver pelo menos 10 amostras.
+
+Logo, o overfitting foi corrigido:
+
+**Acurácia do treino:** 0.82
+
+**Acurácia do teste:** 0.78
+
 
 
 ### Resultados obtidos com o modelo 2.
