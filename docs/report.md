@@ -326,6 +326,9 @@ No passo 7 é onde de fato o modelo de Machine Learning é treinado, ou seja, el
 - `min_samples_split=10` → Uma divisão interna da árvore (um nó) só será feita se houver pelo menos 10 amostras. Isso também ajuda a reduzir o overfitting.
 - `random_state=42` → Garante que o resultado seja reprodutível: as mesmas árvores serão criadas sempre que o código for executado.
 
+![image](https://github.com/user-attachments/assets/7818ba6a-80c2-4fce-b0a6-99095d41fcb9)
+
+Essa parte do código realiza a etapa final de um modelo de Machine Learning supervisionado: prever, avaliar e interpretar os resultados. 
  
 
 ### Modelo 2: Algoritmo
