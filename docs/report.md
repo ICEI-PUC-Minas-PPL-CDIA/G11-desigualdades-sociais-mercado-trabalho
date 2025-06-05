@@ -338,12 +338,17 @@ Repita os passos anteriores para o segundo modelo.
 
 ## Resultados
 
-### Resultados obtidos com o modelo 1.
+### Resultados obtidos com o modelo 1:
 
-Apresente aqui os resultados obtidos com a indução do modelo 1. 
-Apresente uma matriz de confusão quando pertinente. Apresente as medidas de performance
-apropriadas para o seu problema. 
-Por exemplo, no caso de classificação: precisão, revocação, F-measure, acurácia.
+**Acurácia no treino**: 82.41%
+
+**Acurácia no teste**: 78.02%
+
+- Acurácia é uma métrica de avaliação que indica quantas previsões o modelo acertou em relação ao total de casos.
+- A diferença entre treino e teste é pequena (aproximadamente 4,4 pontos percentuais), o que é um bom sinal. Isso mostra que o modelo não está memorizando os dados (overfitting), nem está com desempenho muito baixo (underfitting).
+- Ele conseguiu capturar relações relevantes entre os atributos sociais/profissionais e o salário. Isso significa que, sim, características sociais ajudam a prever se o salário será mais alto ou mais baixo.
+
+
 
 ### Interpretação do modelo 1
 
