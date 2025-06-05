@@ -348,7 +348,8 @@ Repita os passos anteriores para o segundo modelo.
 - A diferença entre treino e teste é pequena (aproximadamente 4,4 pontos percentuais), o que é um bom sinal. Isso mostra que o modelo não está memorizando os dados (overfitting), nem está com desempenho muito baixo (underfitting).
 - Ele conseguiu capturar relações relevantes entre os atributos sociais/profissionais e o salário. Isso significa que, sim, características sociais ajudam a prever se o salário será mais alto ou mais baixo.
 
-![image](https://github.com/user-attachments/assets/5f324dde-5885-49c3-860a-dd42f1e3b12d)
+![image](https://github.com/user-attachments/assets/e2ac28f2-ca71-4da8-9e2d-7449544716c8)
+
 
 - **Classe Baixo:**
 	- Precision (0.71): Quando o modelo prevê que o salário é "Baixo", ele acerta 71% das vezes.
