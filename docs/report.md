@@ -293,6 +293,21 @@ Foi usado o modelo Random Forest Classifier com o objetivo de prever o salário 
 
 Dessa forma, o Random Forest foi escolhido por ser um modelo mais robusto, com o objetivo de alcançar uma acurácia melhor. Além disso, é um modelo que não exigiu muitas mudanças e transformações na base de dados o que facilita sua aplicação e interpretação. Assim, mais do que apenas prever salários, o modelo ajuda a revelar padrões sociais importantes que podem servir de base para reflexões e ações voltadas à equidade.
 
+#### Explicação do código 
+
+A construção e o treinamento do modelo foram feitos utilizando a linguagem de programação Python, uma das mais usadas na área de ciência de dados. Nosso código faz uso das bibliotecas pandas, scikit-learn e matplotlib, que facilitam desde o tratamento e análise dos dados até a construção, avaliação e visualização de modelos preditivos.
+
+O nosso código começa com a importação das referidas bibliotecas, a leitura da nossa base de dados e ajustes em alguns atributos:
+
+![image](https://github.com/user-attachments/assets/85336cdd-7550-4ef6-985d-faac4a95e9ee)
+
+O passo 4 codifica as variáveis categóricas em numéricas, pois o random forest não consegue trabalhar diretamente com texto. Desse modo, o código: 
+
+- seleciona automaticamente todas as colunas que têm dados em formato de texto a partir do comando `df.select_dtypes(include='object')`
+- Para cada uma dessas colunas, cria-se um `LabelEncoder()`, que transforma cada categoria (string) em um número.
+	- Por exemplo, na coluna genero, "Masculino" pode virar 1 e "Feminino" virar 0.
+- Substitui os valores originais das colunas por seus respectivos códigos numéricos.
+- Salva cada encoder em um dicionário `label_encoders`, o que permite reverter os códigos para texto no futuro, se necessário.
 
 ### Modelo 2: Algoritmo
 
