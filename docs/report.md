@@ -309,6 +309,25 @@ O passo 4 codifica as variáveis categóricas em numéricas, pois o random fores
 - Substitui os valores originais das colunas por seus respectivos códigos numéricos.
 - Salva cada encoder em um dicionário `label_encoders`, o que permite reverter os códigos para texto no futuro, se necessário.
 
+![image](https://github.com/user-attachments/assets/ac91f7b3-1cf2-43a3-b4e5-fb1a2c79f933)
+
+No passo 5, foi definido o target, a coluna "Salario" (atributo que o modelo vai tentar prever).
+
+![image](https://github.com/user-attachments/assets/d4dc9662-e4ed-4d27-b7a3-842693230650)
+
+No passo 6, a base de dados foi dividida em treinamento (90%) e teste (10%). Tal divisão foi feita com o objetivo de fornecer uma grande quantidade de dados para o treinamento do modelo, de modo que ele aprenda melhor e sua precisão seja maior.
+
+![image](https://github.com/user-attachments/assets/0528bc56-5d52-4a09-8899-ac496715ae97)
+
+No passo 7 é onde de fato o modelo de Machine Learning é treinado, ou seja, ele aprende padrões nos dados de treino para conseguir prever o salário ("Alto" ou "Baixo") com base nos atributos sociais e profissionais dos trabalhadores. Os parâmetros utilizados foram:
+
+- `n_estimators=100` → Cria 100 árvores de decisão. Quanto mais árvores, mais estável e robusto tende a ser o modelo (até certo ponto).
+- `max_depth=10` → Limita a profundidade máxima de cada árvore. Isso evita que o modelo fique muito complexo e superajuste (overfitting) os dados.
+- `min_samples_split=10` → Uma divisão interna da árvore (um nó) só será feita se houver pelo menos 10 amostras. Isso também ajuda a reduzir o overfitting.
+- `random_state=42` → Garante que o resultado seja reprodutível: as mesmas árvores serão criadas sempre que o código for executado.
+
+ 
+
 ### Modelo 2: Algoritmo
 
 Repita os passos anteriores para o segundo modelo.
