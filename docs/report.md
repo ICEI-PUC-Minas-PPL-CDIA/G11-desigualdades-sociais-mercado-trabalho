@@ -373,6 +373,8 @@ Repita os passos anteriores para o segundo modelo.
 
 ### Interpretação do modelo 1
 
+---
+
 #### Overfitting 
 
 Após realizar os primeiros testes no modelo Random Forest, foi detectado um overfitting (discrepância da acurácia de treinamento comparada à acurácia de teste). No caso do nosso modelo, o resultado foi o seguinte:
@@ -392,6 +394,16 @@ Logo, o overfitting foi corrigido:
 **Acurácia do treino:** 0.82
 
 **Acurácia do teste:** 0.78
+
+---
+
+#### Remoção da coluna "nivel"
+
+A variável "nível" (Júnior, Pleno, Sênior) tem forte correlação direta com o salário — o que torna sua presença no modelo quase uma "resposta pronta". Ou seja, prever salário com base no nível do cargo é óbvio e pouco revelador para entender os mecanismos mais sutis da desigualdade.
+
+- Remoção da coluna no código: `df = df.drop("nivel", axis = 1)`
+
+Quando essa variável foi removida e a acurácia caiu apenas 5%, o modelo continuou acertando bem mesmo sem essa "pista óbvia". Assim, o modelo ainda conseguiu prever salários com boa precisão com base apenas em fatores sociodemográficos, ou seja, características que não deveriam influenciar diretamente o salário em um mercado idealmente meritocrático. Isso sugere que as outras variáveis estão, na prática, associadas ao nível salarial — o que é um indício de discriminação sistêmica e desigualdade de oportunidades.
 
 
 
