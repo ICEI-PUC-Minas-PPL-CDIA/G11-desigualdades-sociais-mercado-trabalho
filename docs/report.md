@@ -348,6 +348,16 @@ Repita os passos anteriores para o segundo modelo.
 - A diferença entre treino e teste é pequena (aproximadamente 4,4 pontos percentuais), o que é um bom sinal. Isso mostra que o modelo não está memorizando os dados (overfitting), nem está com desempenho muito baixo (underfitting).
 - Ele conseguiu capturar relações relevantes entre os atributos sociais/profissionais e o salário. Isso significa que, sim, características sociais ajudam a prever se o salário será mais alto ou mais baixo.
 
+![image](https://github.com/user-attachments/assets/5f324dde-5885-49c3-860a-dd42f1e3b12d)
+
+- **Classe Baixo:**
+	- Precision (0.71): Quando o modelo prevê que o salário é "Baixo", ele acerta 71% das vezes.
+	- Recall (0.73): De todos os trabalhadores com salário "Baixo", o modelo identifica corretamente 73%.
+	- F1-score (0.72): Média harmônica entre precision e recall, indica um equilíbrio moderado para esta classe.
+- **Classe Alto:**
+	- Precision (0.83): Quando o modelo prevê "Alto", ele acerta 83% das vezes.
+	- Recall (0.81): De todos os trabalhadores com salário "Alto", o modelo acerta 81%.
+	- F1-score (0.82): Desempenho forte nessa classe, indicando que o modelo está mais confiável para salários altos.
 
 
 ### Interpretação do modelo 1
