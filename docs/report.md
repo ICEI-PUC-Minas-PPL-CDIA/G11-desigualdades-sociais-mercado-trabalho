@@ -466,11 +466,69 @@ Essa assimetria na performance do modelo fortalece a hipótese de que a desigual
 
 ### Resultados obtidos com o modelo 2.
 
-Repita o passo anterior com os resultados do modelo 2.
+Acurácia no treino: 85,30%
+Acurácia no teste: 80,15%
+
+Assim como no primeiro modelo, a acurácia é uma métrica de avaliação que mostra a proporção de previsões corretas feitas pelo modelo em relação ao total de casos.
+
+Neste caso, a diferença entre treino e teste é pequena (cerca de 5,1 pontos percentuais), o que novamente indica que o modelo não está sofrendo de overfitting severo, nem de underfitting.
+O modelo conseguiu capturar relações significativas entre variáveis sociais/profissionais e a variável de interesse (salário alto ou baixo).
+
+Métricas de Classificação - Relatório detalhado:
+
+### Classe Baixo:
+
+- Precisão: 0,74 → Quando o modelo prevê "Baixo", ele acerta 74% das vezes.
+
+- Recall: 0,77 → De todos os salários que são realmente "Baixo", o modelo acerta 77%.
+
+- F1 Score: 0,75 → Boa harmonia entre precisão e recall, desempenho equilibrado.
+
+ ### Classe Alto:
+
+- Precisão: 0,84 → Quando o modelo prevê "Alto", ele acerta 84% das vezes.
+
+- Recall: 0,82 → De todos os salários que são realmente "Alto", o modelo acerta 82%.
+
+- F1 Score: 0,83 → Excelente desempenho nesta classe.
+
+### Matriz de confusão:
+
+- Verdadeiro Positivo (VP) = 106 → Predito "Alto", realmente "Alto"
+
+- Verdadeiro Negativo (VN) = 185 → Predito "Baixo", realmente "Baixo"
+
+- Falso Positivo (FP) = 40 → Predito "Alto", mas era "Baixo"
+
+- Falso Negativo (FN) = 35 → Predito "Baixo", mas era "Alto"
 
 ### Interpretação do modelo 2
 
-Repita o passo anterior com os parâmetros do modelo 2.
+### Sobreajuste:
+O modelo 2 também foi treinado com estratégias para evitar o overfitting. Foram usados:
+
+- Parâmetro `max_depth`, limitando a profundidade da árvore.
+
+- Parâmetro `min_samples_split`, limitando o número mínimo de amostras necessárias para que um nó seja dividido.
+
+Esses ajustes ajudaram a manter o modelo generalizável, com desempenho bastante próximo entre treino (85%) e teste (80%).
+Este é um indicativo de que o modelo não está apenas memorizando os dados, mas conseguindo aprender padrões consistentes.
+
+### Remoção da variável "nível_carreira":
+Assim como no primeiro modelo, foi avaliada a variável "nível_carreira", que tem relação direta com o salário (junior/pleno/sênior).
+A sua inclusão ou exclusão impacta fortemente o modelo. Ao testar sem essa variável, o modelo perdeu um pouco de acurácia (~5%), mas ainda se manteve funcional.
+Isso reforça a ideia de que fatores sociais e demográficos isoladamente conseguem explicar uma parcela importante da desigualdade salarial, mesmo sem pistas óbvias como o nível da carreira.
+
+### Interpretação final:
+- O modelo 2 mostra ótima capacidade de prever salários altos (precisão 84%, recall 82%).
+
+- Para salários baixos, o desempenho também é bom e equilibrado.
+
+- A árvore de decisão nos permite visualizar regras claras e interpretáveis — um ponto positivo deste tipo de modelo, pois podemos identificar quais variáveis sociais estão mais associadas a salários baixos ou altos.
+
+- Assim como no primeiro modelo, a desigualdade identificada não é puramente meritocrática: variáveis como gênero, etnia, escolaridade e experiência acabam sendo preditoras relevantes, o que sugere mecanismos sociais estruturantes de desigualdade no mercado de trabalho da área de dados no Brasil.
+
+
 
 
 ## Análise comparativa dos modelos
