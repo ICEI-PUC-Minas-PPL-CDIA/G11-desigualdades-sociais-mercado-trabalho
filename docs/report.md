@@ -331,9 +331,57 @@ No passo 7 é onde de fato o modelo de Machine Learning é treinado, ou seja, el
 Essa parte do código realiza a etapa final de um modelo de Machine Learning supervisionado: prever, avaliar e interpretar os resultados. 
  
 
-### Modelo 2: Algoritmo
+### Modelo 2: Classificador Árvore de Decisão
+### Justificativa do Modelo
+Foi utilizado o modelo Decision Tree Classifier com o objetivo de prever se o salário dos entrevistados é classificado como "Alto" ou "Baixo". O modelo utiliza como base atributos da base de dados como idade, gênero, raça, nível de escolaridade, tempo de experiência na área e outros fatores sociais para fazer essa previsão.
 
-Repita os passos anteriores para o segundo modelo.
+A escolha pela Árvore de Decisão se dá principalmente por sua simplicidade e interpretabilidade. Este modelo oferece uma estrutura de decisão em que cada divisão da árvore representa um critério claro e compreensível, o que facilita não apenas a previsão, mas também a análise dos padrões sociais e profissionais que influenciam o salário.
+Além disso, a Árvore de Decisão funciona bem mesmo em bases de dados com variáveis categóricas e não requer transformações muito complexas, tornando o processo de construção mais direto.
+
+### Explicação do código
+A construção e o treinamento do modelo foram feitos em Python, utilizando as bibliotecas pandas, scikit-learn, matplotlib e seaborn, muito comuns em ciência de dados. Essas bibliotecas ajudam desde o tratamento dos dados até a construção, visualização e avaliação do modelo.
+
+### Passo 1: Importação das bibliotecas e leitura da base de dados
+Primeiramente, foram importadas as bibliotecas e lida a base de dados "Base de dados principal TRATADA ATUALIZADA.xlsx". Algumas colunas foram renomeadas para facilitar o trabalho com o DataFrame.
+
+### Passo 2: Codificação das variáveis categóricas
+Assim como no modelo de Random Forest, as variáveis categóricas foram transformadas em variáveis numéricas utilizando a técnica de Label Encoding:
+
+- O código seleciona automaticamente todas as colunas com dados do tipo "object" (texto);
+
+- Um LabelEncoder é criado para cada coluna categórica, convertendo categorias como "Masculino" e "Feminino" em valores numéricos (exemplo: 1 e 0);
+
+- Esses codificadores foram armazenados em um dicionário `label_encoders`, permitindo reverter os códigos para texto se necessário.
+
+### Passo 3: Definição da variável alvo
+A coluna "Salário" foi definida como variável alvo (target), com o objetivo de prever sua classificação ("Alto" ou "Baixo").
+
+### Passo 4: Divisão dos dados em treino e teste
+A base foi dividida em dois conjuntos:
+
+- Treinamento: 90% dos dados, para o modelo aprender os padrões;
+
+- Teste: 10% dos dados, para avaliar o desempenho do modelo em dados novos.
+
+### Passo 5: Treinamento do modelo
+Foi utilizado um DecisionTreeClassifier com as seguintes configurações:
+
+- `max_depth=5` → Limita a profundidade da árvore a 5 níveis. Isso evita que o modelo fique muito complexo e reduza o risco de overfitting (quando o modelo "decorar" os dados de treinamento);
+
+- `min_samples_split=10` → Um nó só será dividido se houver pelo menos 10 amostras, também uma técnica para evitar overfitting;
+
+- `random_state=42` → Garante que o resultado seja reprodutível.
+
+### Passo 6: Avaliação do modelo
+Após o treinamento, o modelo foi avaliado com os dados de teste:
+
+- Foi calculada a acurácia do modelo;
+
+- Foi gerada a matriz de confusão para entender melhor como o modelo acerta ou erra as previsões;
+
+- Foi gerada uma curva ROC para visualizar a performance do classificador.
+
+Além disso, o modelo foi visualizado com a função plot_tree, permitindo ver claramente como as decisões são tomadas — uma das grandes vantagens das Árvores de Decisão.
 
 
 ## Resultados
