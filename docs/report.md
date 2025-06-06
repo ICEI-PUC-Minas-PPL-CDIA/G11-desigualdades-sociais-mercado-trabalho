@@ -405,6 +405,15 @@ A variável "nível" (Júnior, Pleno, Sênior) tem forte correlação direta com
 
 Quando essa variável foi removida e a acurácia caiu apenas 5%, o modelo continuou acertando bem mesmo sem essa "pista óbvia". Assim, o modelo ainda conseguiu prever salários com boa precisão com base apenas em fatores sociodemográficos, ou seja, características que não deveriam influenciar diretamente o salário em um mercado idealmente meritocrático. Isso sugere que as outras variáveis estão, na prática, associadas ao nível salarial — o que é um indício de discriminação sistêmica e desigualdade de oportunidades.
 
+---
+
+#### Interpretação do resultado 
+
+A partir do classification report, é possível concluir que o modelo acerta mais ao prever o salário baixo. Tal funcionalidade indica que esses profissionais compartilham características comuns que os mantêm em posições menos valorizadas economicamente, o que pode refletir desigualdades históricas e estruturais no acesso a oportunidades e progressão na carreira.
+
+Por outro lado, a menor precisão nas previsões de salários altos pode revelar que a ascensão a rendas mais elevadas depende de múltiplos fatores menos previsíveis ou mais diversos, como networking, experiências informais ou oportunidades específicas de carreira — elementos que talvez não estejam completamente representados nos dados coletados.
+
+Essa assimetria na performance do modelo fortalece a hipótese de que a desigualdade no mercado de trabalho de ciência de dados no Brasil não é apenas uma questão de mérito, mas está fortemente ligada a fatores sociais estruturantes. Assim, o modelo não apenas prevê salários, mas também ajuda a revelar os mecanismos sociais que mantêm a desigualdade.
 
 
 ### Resultados obtidos com o modelo 2.
