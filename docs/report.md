@@ -629,6 +629,13 @@ Embora o Random Forest tenha apresentado melhor desempenho para a classe Baixo, 
 
 ### Interpretação
 
+A árvore de decisão combina atributos para prever o salário, detectando desigualdades. Por exemplo, combinando nível de escolaridade com região (Pessoas com pós-graduação ganham mais em média, mas só quando moram na região Sudeste, onde há mais oportunidades de trabalho bem remunerado). As desigualdades não se manifestam isoladamente (apenas por gênero ou apenas por escolaridade), mas em intersecções entre características sociais. E a árvore de decisão, por sua estrutura hierárquica, consegue representar essas intersecções de forma muito clara.
+
+Já modelos como o Random Forest, por agregarem várias árvores e usarem média dos resultados, tendem a suavizar essas combinações, o que pode reduzir o desempenho em identificar essas situações mais específicas — como os casos em que a escolaridade só leva a salários altos em certos contextos regionais ou raciais.
+
+Além disso, a base de dados usada era simples, com poucos atributos e poucos registros. Sendo assim, o benefício da robustez da Random Forest foi limitado, e como a Árvore de decisão trabalha bem com dados mais simples, ela apresentou um melhor resultado.
+
+
 ---
 
 ## 8. Conclusão
