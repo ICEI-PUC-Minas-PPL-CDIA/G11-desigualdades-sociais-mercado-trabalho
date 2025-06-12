@@ -43,11 +43,14 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
   - [Modelo 1: Random Forest Classifier](#modelo-1-random-forest-classifier)
     - [Justificativa do Modelo](#justificativa-do-modelo)
     - [Explicação do código](#explicação-do-código)
-    - [Interpretação do modelo 1](#interpretação-do-modelo-1)
   - [Modelo 2: Classificador Árvore de Decisão](#modelo-2-classificador-árvore-de-decisão)
     - [Justificativa do Modelo](#justificativa-do-modelo-1)
     - [Explicação do código](#explicação-do-código-1)
-    - [Interpretação do modelo 2](#interpretação-do-modelo-2)
+- [Resultados](#resultados)
+  - [Resultados do modelo 1](#resultados-obtidos-com-o-modelo-1)
+  - [Interpretação do modelo 1](#interpretação-do-modelo-1)
+  - [Resultados do modelo 2](#resultados-obtidos-com-o-modelo-2)
+  - [Interpretação do modelo 2](#interpretação-do-modelo-2)
 - [Análise comparativa dos modelos](#análise-comparativa-dos-modelos)
 - [Distribuição do modelo (opcional)](#distribuição-do-modelo-opcional)
 - [Conclusão](#8-conclusão)
@@ -367,7 +370,8 @@ No passo 7 é onde de fato o modelo de Machine Learning é treinado, ou seja, el
 ![image](https://github.com/user-attachments/assets/7818ba6a-80c2-4fce-b0a6-99095d41fcb9)
 
 Essa parte do código realiza a etapa final de um modelo de Machine Learning supervisionado: prever, avaliar e interpretar os resultados. 
- 
+
+ ---
 
 ### Modelo 2: Classificador Árvore de Decisão
 ### Justificativa do Modelo
@@ -421,6 +425,7 @@ Após o treinamento, o modelo foi avaliado com os dados de teste:
 
 Além disso, o modelo foi visualizado com a função plot_tree, permitindo ver claramente como as decisões são tomadas — uma das grandes vantagens das Árvores de Decisão.
 
+---
 
 ## Resultados
 
@@ -456,6 +461,7 @@ Além disso, o modelo foi visualizado com a função plot_tree, permitindo ver c
 
 - Falso Negativo (FN) = 38 → O modelo previu "Baixo", mas era "Alto"
 
+---
 
 ### Interpretação do modelo 1
 
@@ -501,10 +507,12 @@ Por outro lado, a menor precisão nas previsões de salários altos pode revelar
 
 Essa assimetria na performance do modelo fortalece a hipótese de que a desigualdade no mercado de trabalho de ciência de dados no Brasil não é apenas uma questão de mérito, mas está fortemente ligada a fatores sociais estruturantes. Assim, o modelo não apenas prevê salários, mas também ajuda a revelar os mecanismos sociais que mantêm a desigualdade.
 
+---
 
 ### Resultados obtidos com o modelo 2.
 
 Acurácia no treino: 85,30%
+
 Acurácia no teste: 80,15%
 
 Assim como no primeiro modelo, a acurácia é uma métrica de avaliação que mostra a proporção de previsões corretas feitas pelo modelo em relação ao total de casos.
@@ -540,6 +548,8 @@ Métricas de Classificação - Relatório detalhado:
 
 - Falso Negativo (FN) = 35 → Predito "Baixo", mas era "Alto"
 
+---
+
 ### Interpretação do modelo 2
 
 ### Sobreajuste:
@@ -566,7 +576,7 @@ Isso reforça a ideia de que fatores sociais e demográficos isoladamente conseg
 
 - Assim como no primeiro modelo, a desigualdade identificada não é puramente meritocrática: variáveis como gênero, etnia, escolaridade e experiência acabam sendo preditoras relevantes, o que sugere mecanismos sociais estruturantes de desigualdade no mercado de trabalho da área de dados no Brasil.
 
-
+---
 
 
 ## Análise comparativa dos modelos
