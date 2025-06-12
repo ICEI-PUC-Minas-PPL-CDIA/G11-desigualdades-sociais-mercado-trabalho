@@ -616,7 +616,14 @@ Embora o Random Forest tenha apresentado melhor desempenho para a classe Baixo, 
 
 ---
 
-### Aplicação 
+### Aplicação de cada modelo
+
+| Cenário                                                              | Modelo Ideal        | Justificativa                                                                                   |
+|----------------------------------------------------------------------|---------------------|--------------------------------------------------------------------------------------------------|
+| Diagnóstico social e formulação de políticas públicas                | **Árvore de Decisão** | Permite visualizar como variáveis como gênero e etnia influenciam a remuneração                 |
+| Explicação individual de decisões para RH ou auditoria salarial      | **Árvore de Decisão** | Clareza nas decisões é fundamental                                                              |
+| Otimização contínua de predição em cenários complexos e atualizados | **Random Forest**     | Melhor escalabilidade e mais robusto, tolera bem ruído e dados incopletos                             |
+
 
 ---
 
