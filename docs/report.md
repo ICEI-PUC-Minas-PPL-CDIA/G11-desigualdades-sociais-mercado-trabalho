@@ -442,14 +442,14 @@ Além disso, o modelo foi visualizado com a função plot_tree, permitindo ver c
 ![image](https://github.com/user-attachments/assets/e2ac28f2-ca71-4da8-9e2d-7449544716c8)
 
 
-- **Classe Baixo:**
-	- Precision (0.71): Quando o modelo prevê que o salário é "Baixo", ele acerta 71% das vezes.
-	- Recall (0.73): De todos os trabalhadores com salário "Baixo", o modelo identifica corretamente 73%.
-	- F1-score (0.72): Média harmônica entre precision e recall, indica um equilíbrio moderado para esta classe.
 - **Classe Alto:**
-	- Precision (0.83): Quando o modelo prevê "Alto", ele acerta 83% das vezes.
-	- Recall (0.81): De todos os trabalhadores com salário "Alto", o modelo acerta 81%.
-	- F1-score (0.82): Desempenho forte nessa classe, indicando que o modelo está mais confiável para salários altos.
+	- Precision (0.71): Quando o modelo prevê que o salário é "Alto", ele acerta 71% das vezes.
+	- Recall (0.73): De todos os trabalhadores com salário "Alto", o modelo identifica corretamente 73%.
+	- F1-score (0.72): Média harmônica entre precision e recall, indica um equilíbrio moderado para esta classe.
+- **Classe Baixo:**
+	- Precision (0.83): Quando o modelo prevê "Baixo", ele acerta 83% das vezes.
+	- Recall (0.81): De todos os trabalhadores com salário "Baixo", o modelo acerta 81%.
+	- F1-score (0.82): Desempenho forte nessa classe, indicando que o modelo está mais confiável para salários baixos.
 
 ![image](https://github.com/user-attachments/assets/323d5482-f476-492f-bed9-4fe357d33371)
 
