@@ -583,6 +583,16 @@ Isso reforça a ideia de que fatores sociais e demográficos isoladamente conseg
 
 ### Desempenho dos modelos
 
+| Métrica                     | Random Forest | Árvore de Decisão |
+|----------------------------|----------------|--------------------|
+| Acurácia no teste          | 78,02%         | **80,15%**         |
+| F1-score (Classe Alto)     | 0,72           | **0,83**           |
+| F1-score (Classe Baixo)    | **0,82**       | 0,75               |
+
+Embora o Random Forest tenha apresentado melhor desempenho para a classe Baixo, a Árvore de Decisão superou nas métricas da classe Alto e na acurácia geral.
+
+---
+
 ### Forças e fragilidades
 
 **Random Forest**
@@ -604,13 +614,15 @@ Isso reforça a ideia de que fatores sociais e demográficos isoladamente conseg
   - Tende a overfitting se não for bem podada (aqui foi limitada por max_depth=5).
   - Menor generalização quando há muito ruído nos dados.
 
-
+---
 
 ### Aplicação 
 
+---
+
 ### Interpretação
 
-
+---
 
 ## 8. Conclusão
 
