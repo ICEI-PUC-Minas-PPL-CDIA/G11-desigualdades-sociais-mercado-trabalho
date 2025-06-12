@@ -21,7 +21,45 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
+## Sumário
+
+- [Resumo](#resumo)
+- [Introdução](#introdução)
+  - [Contextualização](#contextualização)
+  - [Problema](#problema)
+  - [Objetivo geral](#objetivo-geral)
+  - [Objetivos específicos](#objetivos-específicos)
+  - [Justificativas](#justificativas)
+  - [Público alvo](#público-alvo)
+- [Análise exploratória dos dados](#análise-exploratória-dos-dados)
+  - [Dicionário de dados](#dicionário-de-dados)
+  - [Descrição de dados](#descrição-de-dados)
+  - [Pergunta 1](#pergunta-1)
+  - [Pergunta 2](#pergunta-2)
+  - [Pergunta 3](#pergunta-3)
+  - [Pergunta 4](#pergunta-4)
+- [Preparação dos dados](#preparação-dos-dados)
+- [Indução de modelos](#indução-de-modelos)
+  - [Modelo 1: Random Forest Classifier](#modelo-1-random-forest-classifier)
+    - [Justificativa do Modelo](#justificativa-do-modelo)
+    - [Explicação do código](#explicação-do-código)
+    - [Interpretação do modelo 1](#interpretação-do-modelo-1)
+  - [Modelo 2: Classificador Árvore de Decisão](#modelo-2-classificador-árvore-de-decisão)
+    - [Justificativa do Modelo](#justificativa-do-modelo-1)
+    - [Explicação do código](#explicação-do-código-1)
+    - [Interpretação do modelo 2](#interpretação-do-modelo-2)
+- [Análise comparativa dos modelos](#análise-comparativa-dos-modelos)
+- [Distribuição do modelo (opcional)](#distribuição-do-modelo-opcional)
+- [Conclusão](#8-conclusão)
+- [Referências](#referências)
+- [Apêndices](#apêndices)
+
+
+---
+
+## Resumo 
+
+Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
 mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ---
@@ -72,7 +110,7 @@ Visto que o mercado de trabalho da área de dados apresenta desigualdades sociai
 O público-alvo da aplicação será o governo, especialmente os órgãos responsáveis pela formulação de políticas educacionais e sociais. Os usuários terão, em sua maioria, conhecimento técnico sobre o setor, mas com diferentes níveis de familiaridade com ferramentas tecnológicas. Eles buscam soluções que ajudem a embasar decisões para combater as desigualdades, geralmente ocupando cargos intermediários ou superiores na hierarquia pública.
 
 
-## Análise exploratórida dos dados
+## Análise exploratória dos dados
 
 ###    Dicionário de dados
 
