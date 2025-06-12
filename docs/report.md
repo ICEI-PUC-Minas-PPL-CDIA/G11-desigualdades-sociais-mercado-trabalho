@@ -52,7 +52,6 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
   - [Resultados do modelo 2](#resultados-obtidos-com-o-modelo-2)
   - [Interpretação do modelo 2](#interpretação-do-modelo-2)
 - [Análise comparativa dos modelos](#análise-comparativa-dos-modelos)
-- [Distribuição do modelo (opcional)](#distribuição-do-modelo-opcional)
 - [Conclusão](#8-conclusão)
 - [Referências](#referências)
 - [Apêndices](#apêndices)
