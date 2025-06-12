@@ -581,15 +581,35 @@ Isso reforça a ideia de que fatores sociais e demográficos isoladamente conseg
 
 ## Análise comparativa dos modelos
 
-Discuta sobre as forças e fragilidades de cada modelo. Exemplifique casos em que um
-modelo se sairia melhor que o outro. Nesta seção é possível utilizar a sua imaginação
-e extrapolar um pouco o que os dados sugerem.
+### Desempenho dos modelos
+
+### Forças e fragilidades
+
+**Random Forest**
+
+- Forças:
+  - Alta capacidade preditiva em bases complexas e com ruído.
+  - Menor propensão a overfitting que uma única árvore.
+  - Melhor desempenho para classe "Baixo", indicando robustez para identificar padrões em populações mais homogêneas (socialmente desfavorecidas).
+- Fragilidades:
+  - Menos interpretável: não permite ver regras claras, o que dificulta análise explicativa.
+
+**Árvore de decisão**
+
+- Forças:
+  - Alta interpretabilidade: é possível visualizar regras explícitas de decisão (ex.: “se experiência > 5 anos e nível_ensino = superior, então salário = alto”).
+  - Bom desempenho para prever salários altos, possivelmente por capturar melhor interações pontuais entre variáveis.
+  - Ideal em contextos com necessidade de transparência para justificar decisões (por exemplo, políticas públicas ou empresas com critérios éticos de remuneração).
+- Fragilidades:
+  - Tende a overfitting se não for bem podada (aqui foi limitada por max_depth=5).
+  - Menor generalização quando há muito ruído nos dados.
 
 
-### Distribuição do modelo (opcional)
 
-Tende criar um pacote de distribuição para o modelo construído, para ser aplicado 
-em um sistema inteligente.
+### Aplicação 
+
+### Interpretação
+
 
 
 ## 8. Conclusão
