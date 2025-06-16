@@ -86,7 +86,7 @@ Nessa perspectiva, fizemos o projeto a partir da base de dados "State of Data Br
 
 ###    Problema
 
-O problema a ser analisado é a desigualdade social na área de dados. Nesse contexto grupos minoritários não recebem as mesmas oportunidades no mercado de trabalho, surgindo assim uma discrepância salarial entre grupos étnicos. Dessa forma, elaboramos dois modelos de Machine Learning, que foram induzidos a partir de uma pergunta: “Como associar a desigualdade no mercado de trabalho com a discrepância salarial na área de dados”.
+O problema a ser analisado é a desigualdade social na área de dados. Nesse contexto grupos minoritários não recebem as mesmas oportunidades no mercado de trabalho, surgindo assim uma discrepância salarial entre grupos étnicos. Dessa forma, elaboramos dois modelos de Machine Learning, que foram induzidos a partir da pergunta: “Como as desigualdades sociais afetam os salários dos profissionais no mercado de trabalho de dados?”.
 
 Feito tal pergunta, nosso grupo se apoiou na base de dados State of Data Brasil 2023 e na base de dados do IBGE para tentar respondê-la. Logo, nossos modelos se baseiam em atributos dessas bases, gerando resultados a partir de técnicas de análise de dados e aprendizado de máquina. 
 
