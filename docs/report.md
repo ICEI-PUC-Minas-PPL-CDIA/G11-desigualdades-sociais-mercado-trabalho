@@ -69,7 +69,7 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ## Introdução
 
-A elaboração desse trabalho busca usar conhecimentos de ciência de dados para resolver problemas de relevância social. Desse modo, aplicamos técnicas de aprendizado de máquina para construir um modelo de agente inteligente, que identifica padrões em diferentes bases de dados, servindo de apoio à tomada de decisão de um problema social.
+A elaboração desse trabalho busca usar conhecimentos de ciência de dados para resolver problemas de relevância social. Desse modo, aplicamos técnicas de aprendizado de máquina para construir dois modelos de agente inteligente, que identifica padrões em diferentes bases de dados, servindo de apoio à tomada de decisão de um problema social.
 
 Nesse contexto, utilizamos a base de dados "State of Data Brasil 2023", que analisa o mercado de trabalho e o perfil do profissional na área de dados. Ao analisar essa base, observamos problemas sociais, bem como a desigualdade social no mercado, prova da discrepância salarial entre grupos étnicos. Além disso, nos apoiamos em uma base de dados auxliar, a "IBGE Estatísticas Brasil", de modo a enriquecer nossos dados. Tal base foi encontrada no Kaggle, e ela diz respeito a indicadores sociais e geográficos de cada Estado do país.
 
