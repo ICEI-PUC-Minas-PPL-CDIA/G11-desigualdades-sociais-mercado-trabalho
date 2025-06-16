@@ -35,6 +35,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 - [Análise exploratória dos dados](#análise-exploratória-dos-dados)
   - [Dicionário de dados](#dicionário-de-dados)
   - [Descrição de dados](#descrição-de-dados)
+  - [Gráficos](#gráficos)
   - [Pergunta 1](#pergunta-1)
   - [Pergunta 2](#pergunta-2)
   - [Pergunta 3](#pergunta-3)
@@ -156,7 +157,56 @@ Criação de outra planilha no Excel, contendo os atributos principais:
 
 ###    Descrição de dados
 
-_**Base de dados: State of Data Brasil 2023**_
+**Base de dados:**
+
+**Idade**
+- Média:
+- Moda:
+- Mediana:
+- Máx:
+- Mín:
+
+**Gênero**
+- Masculino:
+- Feminino:
+
+**Raça**
+- Branca:
+- Preta:
+- Parda:
+- Amarela:
+
+**Estado onde mora**
+- Moda:
+
+**Nível de ensino**
+- Moda:
+
+**Nível na empresa**
+- Júnior:
+- Pleno:
+- Sênior:
+
+**Salário**
+- Média:
+- Moda:
+- Mediana:
+- Máx:
+- Mín:
+
+**Tempo de experiência na área de dados**
+- Média:
+- Moda:
+- Mediana:
+- Máx:
+- Mín:
+
+**IDH**
+- Maior:
+- Menor: 
+
+
+### Gráficos
 
 **Idade:**
 
