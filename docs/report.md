@@ -92,7 +92,7 @@ Feito tal pergunta, nosso grupo se apoiou na base de dados State of Data Brasil 
 
 ###    Objetivo geral
 
-O objetivo geral do trabalho é identificar desigualdades sociais na área de dados. Nessa perspectiva, nos orientamos a partir da pergunta "Como as desigualdades sociais afetam os salários dos profissionais no mercado de trabalho de dados?". Dessa forma, para responder tal pergunta, baseamos nos atributos: gênero, cor/raça/etnia, PCD, nível de ensino, área de formação, nível, tempo de experiência na área de dados, faixa salarial e IDH.
+O objetivo geral deste trabalho é investigar e compreender, por meio da aplicação de técnicas de Ciência de Dados e Aprendizado de Máquina, como as desigualdades sociais impactam os salários dos profissionais atuantes no mercado de trabalho da área de dados no Brasil. Tais técnicas foram aplicadas na nossa base de dados, sendo possível elaborar uma pergunta orientada a dados, servindo como base para o nosso projeto. Assim, para responder à pergunta "Como as desigualdades sociais afetam os salários dos profissionais no mercado de trabalho de dados?", nos baseamos nos atributos: Idade, gênero, raça, estado onde mora, nível de ensino, nível, tempo de experiência e salário. 
 
 ####    Objetivos específicos
 
