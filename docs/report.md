@@ -31,6 +31,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
   - [Objetivos específicos](#objetivos-específicos)
   - [Justificativas](#justificativas)
   - [Público alvo](#público-alvo)
+- [Preparação dos dados](#preparação-dos-dados)
 - [Análise exploratória dos dados](#análise-exploratória-dos-dados)
   - [Dicionário de dados](#dicionário-de-dados)
   - [Descrição de dados](#descrição-de-dados)
@@ -38,7 +39,6 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
   - [Pergunta 2](#pergunta-2)
   - [Pergunta 3](#pergunta-3)
   - [Pergunta 4](#pergunta-4)
-- [Preparação dos dados](#preparação-dos-dados)
 - [Indução de modelos](#indução-de-modelos)
   - [Modelo 1: Random Forest Classifier](#modelo-1-random-forest-classifier)
     - [Justificativa do Modelo](#justificativa-do-modelo)
@@ -116,6 +116,25 @@ Além disso, o trabalho está alinhado com os Objetivos de Desenvolvimento Suste
 O presente trabalho é direcionado a diferentes públicos que atuam ou têm interesse na área de dados, tecnologia e políticas sociais. Em primeiro lugar, destina-se a estudantes, pesquisadores e profissionais de Ciência de Dados e áreas correlatas que desejam compreender a dimensão social do seu campo de atuação e aplicar técnicas analíticas em problemas concretos de desigualdade. Em segundo lugar, é voltado a gestores de empresas, responsáveis por processos de recrutamento e diversidade, fornecendo insights sobre como construir ambientes mais inclusivos. Por fim, também se dirige a formuladores de políticas públicas, organizações da sociedade civil e instituições educacionais interessadas em promover equidade no acesso às carreiras tecnológicas e em reduzir as desigualdades sociais no Brasil.
 
 ---
+
+## Preparação dos dados
+
+### Base de dados original 
+
+### Seleção dos atributos
+
+Criação de outra planilha no Excel, contendo os atributos principais:
+
+### Limpeza e transformação de dados: 
+
+- Tratamento dos valores nulos: -1512 linhas 
+- Tratamento dos outliers: -142 linhas 
+- Conversão dos dados da coluna “Faixa salarial” para números contínuos 
+- Conversão dos dados da coluna “Tempo de experiência” para números contínuos
+
+### Base de dados tratada
+
+--- 
 
 ## Análise exploratória dos dados
 
@@ -308,25 +327,6 @@ _**Base de dados principal Tratada**_
 ![image](https://github.com/user-attachments/assets/77a7db08-76c1-4be3-9d45-3a90e24a5372)
 
 ---
-
-## Preparação dos dados
-
-### Base de dados original 
-
-### Seleção dos atributos
-
-Criação de outra planilha no Excel, contendo os atributos principais:
-
-### Limpeza e transformação de dados: 
-
-- Tratamento dos valores nulos: -1512 linhas 
-- Tratamento dos outliers: -142 linhas 
-- Conversão dos dados da coluna “Faixa salarial” para números contínuos 
-- Conversão dos dados da coluna “Tempo de experiência” para números contínuos
-
-### Base de dados tratada
-
---- 
 
 ## Indução de modelos
 
