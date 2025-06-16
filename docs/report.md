@@ -155,6 +155,8 @@ Criação de outra planilha no Excel, contendo os atributos principais:
 | Tempo de experiência na área de dados| Numérico		| Inteiro		| Tempo de exériência em anos		|
 | IDH 			| Numérico		| Real				| IDH do estado onde mora o profissional	|
 
+---
+
 ###    Descrição de dados
 
 **Base de dados:**
@@ -203,6 +205,7 @@ Criação de outra planilha no Excel, contendo os atributos principais:
 - Tocantins (TO): 4
 - Amapá (AP): 3
 - Acre (AC): 1
+
 _*Obs: único estado sem registros é Roraima_
 
 **Nível de ensino**
@@ -238,6 +241,7 @@ _*Obs: único estado sem registros é Roraima_
 - Maior: Distrito Federal (0,814)
 - Menor: Maranhão (0,676)
 
+---
 
 ### Gráficos
 
