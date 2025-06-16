@@ -107,9 +107,9 @@ Buscamos compreender os fatores que contribuem na desigualdade social a partir d
 
 ###    Justificativas
 
-Visto que o mercado de trabalho da área de dados apresenta desigualdades sociais relevantes, optamos por criar um modelo que busca analisar essas desigualdades, evidenciando-as. Tal abordagem foi escolhida por conta da relevância social, conversando com as ODSs 9 (indústria, inovação e infraestrutura) e 10 (redução das desigualdades), servindo de incentivo para o nosso trabalho.
+A crescente demanda por profissionais na área de Ciência de Dados no Brasil contrasta com a persistência de desigualdades sociais que limitam o acesso e o crescimento de determinados grupos no mercado de trabalho. Embora o setor tecnológico se apresente como promissor e inovador, ele não está imune às disparidades estruturais da sociedade brasileira, como o racismo, o sexismo e as desigualdades regionais e educacionais. Nesse cenário, é fundamental utilizar a própria Ciência de Dados como instrumento para analisar criticamente essas desigualdades e promover maior equidade.
 
-
+Além disso, o trabalho está alinhado com os Objetivos de Desenvolvimento Sustentável (ODS) da Agenda 2030 da ONU, especialmente com o ODS 9, que incentiva a inovação, e com o ODS 10, que visa reduzir as desigualdades. Ao analisar a exclusão de grupos vulneráveis em um setor estratégico como o de Ciência de Dados, este projeto contribui para a criação de um ecossistema tecnológico mais inclusivo, justo e sustentável.
 
 ###    Público alvo
 
