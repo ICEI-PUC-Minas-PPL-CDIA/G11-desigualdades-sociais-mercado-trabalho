@@ -73,13 +73,15 @@ A elaboração desse trabalho busca usar conhecimentos de ciência de dados para
 
 Nesse contexto, utilizamos a base de dados "State of Data Brasil 2023", que analisa o mercado de trabalho e o perfil do profissional na área de dados. Ao analisar essa base, observamos problemas sociais, bem como a desigualdade social no mercado, prova da discrepância salarial entre grupos étnicos. Além disso, nos apoiamos em uma base de dados auxliar, a "IBGE Estatísticas Brasil", de modo a enriquecer nossos dados. Tal base foi encontrada no Kaggle, e ela diz respeito a indicadores sociais e geográficos de cada Estado do país.
 
----
 
 ###    Contextualização
 
-A discrepância salarial entre grupos étnicos no mercado de dados no Brasil reflete um problema estrutural histórico do país. O acesso desigual à educação de qualidade, preconceitos e barreiras socioeconômicas enfrentadas por determinados grupos impactam diretamente a inserção e a progressão na carreira dentro desse setor, que é um dos mais promissores e bem remunerados da economia digital. Assim, nosso modelo associa as desigualdades no mercado de trabalho com a discrepância salarial, relacionando-as a partir da análise da dados e técnicas de aprendizado de máquina.
+A desigualdade social no mercado de trabalho da área de Ciência de Dados no Brasil é um reflexo das profundas disparidades históricas que marcam a sociedade brasileira, especialmente no que diz respeito ao acesso às oportunidades profissionais. Apesar do crescimento expressivo do setor de tecnologia e da alta demanda por cientistas de dados, nem todos os grupos sociais têm acesso equitativo às formações, certificações e experiências que possibilitam a ascensão profissional nesse campo. Fatores como raça, gênero, origem socioeconômica e localização geográfica ainda influenciam significativamente as chances de alguém prosperar na área.
 
-Dessa maneira, as técnicas e análises do nosso modelo foram feitas usando como referência a base de dados "State of Data Brasil 2023", uma pesquisa anual que mapeia o mercado de dados e inteligência artificial no Brasil. Além dessa, utilizamos a base de dados auxiliar "IBGE Estatísticas Brasil", de modo a enriquecer a base de dados principais, a partir do atributo de IDH (Índice de desenvolvimento humano) de cada estado do país.
+Nesse contexto, nosso trabalho propõem o uso da metodologia de ciência de dados, com a definição de um problema, análise exploratória e treinamento de modelos de Machine Learning, de modo a discutir as desigualdades sociais presentes no mercado de dados. Assim, a partir dos resultados das análises e dos modelos, buscamos evidenciar padrões de disparidade salarial com base em características sociais dos profissionais, como gênero, raça, escolaridade e experiência.
+
+Nessa perspectiva, fizemos o projeto a partir da base de dados "State of Data Brasil 2023", uma pesquisa anual que mapeia o mercado de dados e inteligência artificial no Brasil. Além dessa, utilizamos a base de dados auxiliar "IBGE Estatísticas Brasil", de modo a enriquecer a base de dados principais, a partir do atributo de IDH (Índice de desenvolvimento humano) de cada estado do país. 
+
 
 
 ###    Problema
@@ -111,6 +113,7 @@ Visto que o mercado de trabalho da área de dados apresenta desigualdades sociai
 
 O público-alvo da aplicação será o governo, especialmente os órgãos responsáveis pela formulação de políticas educacionais e sociais. Os usuários terão, em sua maioria, conhecimento técnico sobre o setor, mas com diferentes níveis de familiaridade com ferramentas tecnológicas. Eles buscam soluções que ajudem a embasar decisões para combater as desigualdades, geralmente ocupando cargos intermediários ou superiores na hierarquia pública.
 
+---
 
 ## Análise exploratória dos dados
 
