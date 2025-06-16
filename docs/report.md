@@ -140,20 +140,19 @@ Criação de outra planilha no Excel, contendo os atributos principais:
 
 ###    Dicionário de dados
 
-_**Base de dados: State of Data Brasil 2023**_
+**Base de dados:**
 
-| Código          | Descrição                                              | Tipo                      |
-|----------------|------------------------------------------------------|---------------------------|
-| **P1_a** | Idade                                   | Numérico                   |
-| **P1_b** | Gênero                    | Categórico Binominal      |
-| **P1_c** | Cor/Raça/Etnia                 | Categórico Multivalorado  |
-| **P1_d** | PCD - Pessoa com deficiência (Sim/Não)                        | Categórico Binominal        |
-| **P1_i** | Estado onde mora | Categórico Multivalorado |
-| **P1_l** | Nível de ensino                                           | Categórico Multivalorado  |
-| **P2_g** | Nível na empresa | Categórico Multivalorado |
-| **P2_h** | Faixa salarial                                           | Numérico Discreto              |
-|**P2_i** | Tempo de experiência na área de dados | Numérico Discreto |
-
+| Nome			| Tipo			| Subtipo			| Descrição			|
+|-----------------------|-----------------------|-------------------------------|-------------------------------|
+| Idade			| Numérico		| Inteiro			| Idade em anos do profissional	|
+| Gênero		| Categórico		| Binário			| Se o profissional é do gênero "Masculino ou "Feminino"	|
+| Raça			| Categórico		| Nominal			| Raça/Cor/Etnia do profissional|
+| Estado onde mora	| Categórico		| Nominal			| Estado onde reside o profisional|
+| Nível de ensino	| Categórico		| Nominal			| Etapa educacional mais alta alcançada|
+| Nível na empresa	| Categórico		| Ordinal 			| Se o profissional é "júnior", "pleno", ou "sênior"|
+| Salário		| Numérico		| Inteiro			| Salário do profissional em reais|
+| Tempo de experiência na área de dados| Numérico		| Inteiro		| Tempo de exériência em anos		|
+| IDH 			| Numérico		| Real				| IDH do estado onde mora o profissional	|
 
 ###    Descrição de dados
 
