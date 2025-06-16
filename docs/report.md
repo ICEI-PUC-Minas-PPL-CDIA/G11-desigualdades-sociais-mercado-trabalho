@@ -113,7 +113,7 @@ Além disso, o trabalho está alinhado com os Objetivos de Desenvolvimento Suste
 
 ###    Público alvo
 
-O público-alvo da aplicação será o governo, especialmente os órgãos responsáveis pela formulação de políticas educacionais e sociais. Os usuários terão, em sua maioria, conhecimento técnico sobre o setor, mas com diferentes níveis de familiaridade com ferramentas tecnológicas. Eles buscam soluções que ajudem a embasar decisões para combater as desigualdades, geralmente ocupando cargos intermediários ou superiores na hierarquia pública.
+O presente trabalho é direcionado a diferentes públicos que atuam ou têm interesse na área de dados, tecnologia e políticas sociais. Em primeiro lugar, destina-se a estudantes, pesquisadores e profissionais de Ciência de Dados e áreas correlatas que desejam compreender a dimensão social do seu campo de atuação e aplicar técnicas analíticas em problemas concretos de desigualdade. Em segundo lugar, é voltado a gestores de empresas, responsáveis por processos de recrutamento e diversidade, fornecendo insights sobre como construir ambientes mais inclusivos. Por fim, também se dirige a formuladores de políticas públicas, organizações da sociedade civil e instituições educacionais interessadas em promover equidade no acesso às carreiras tecnológicas e em reduzir as desigualdades sociais no Brasil.
 
 ---
 
