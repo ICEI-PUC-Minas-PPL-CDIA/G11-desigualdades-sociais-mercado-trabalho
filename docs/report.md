@@ -96,10 +96,12 @@ O objetivo geral deste trabalho é investigar e compreender, por meio da aplica�
 
 ####    Objetivos específicos
 
+Buscamos compreender os fatores que contribuem na desigualdade social a partir de uma análise de dados. Desse modo, cada pergunta a seguir foi respondida no processo da Análise Exploratória: 
+
 - Como a faixa salarial média varia entre profissionais de diferentes gêneros em cada região do Brasil?
 - Existe disparidade salarial entre profissionais com o mesmo nível e tempo de experiência, considerando gênero e raça?
 - Qual é a relação entre nível de escolaridade e faixa salarial em diferentes regiões do Brasil?
-- Existe correlação entre o IDH do estado e o salário médio dos profissionais de dados que residem nesses estados?
+- Existe relação entre o IDH do estado e o salário médio dos profissionais de dados que residem nesses estados?
 
 
 
