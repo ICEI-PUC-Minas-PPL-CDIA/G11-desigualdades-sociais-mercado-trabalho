@@ -160,50 +160,83 @@ Criação de outra planilha no Excel, contendo os atributos principais:
 **Base de dados:**
 
 **Idade**
-- Média:
-- Moda:
-- Mediana:
-- Máx:
-- Mín:
+- Média: 30 anos
+- Moda: 27 anos
+- Mediana: 29 anos
+- Máx: 51 anos
+- Mín: 18 anos
 
 **Gênero**
-- Masculino:
-- Feminino:
+- Masculino: 2.724
+- Feminino: 900
 
 **Raça**
-- Branca:
-- Preta:
-- Parda:
-- Amarela:
+- Branca: 2.318
+- Preta: 273
+- Parda: 915
+- Amarela: 93
 
 **Estado onde mora**
-- Moda:
+- São Paulo (SP): 1413
+- Minas Gerais (MG): 399
+- Paraná (PR): 329
+- Rio de Janeiro (RJ): 318
+- Rio Grande do Sul (RS): 209
+- Santa Catarina (SC): 182
+- Distrito Federal (DF): 113
+- Bahia (BA): 96
+- Ceará (CE): 93
+- Pernambuco (PE): 88
+- Espírito Santo (ES): 80
+- Goiás (GO): 64
+- Paraíba (PB): 44
+- Mato Grosso (MT): 34
+- Rio Grande do Norte (RN): 33
+- Pará (PA): 24
+- Mato Grosso do Sul (MS): 21
+- Alagoas (AL): 21
+- Amazonas (AM): 21
+- Sergipe (SE): 18
+- Maranhão (MA): 14
+- Piauí (PI): 12
+- Rondônia (RO): 5
+- Tocantins (TO): 4
+- Amapá (AP): 3
+- Acre (AC): 1
+_*Obs: único estado sem registros é Roraima_
 
 **Nível de ensino**
-- Moda:
+- Graduação/Bacharelado: 1371
+- Pós-graduação: 1182
+- Estudante de Graduação: 492
+- Mestrado: 405
+- Doutorado ou Phd: 123
+- Não tenho graduação formal: 63
+- Prefiro não informar: 3
+
 
 **Nível na empresa**
-- Júnior:
-- Pleno:
-- Sênior:
+- Júnior: 1019
+- Pleno: 1350
+- Sênior: 1270
 
 **Salário**
-- Média:
-- Moda:
-- Mediana:
-- Máx:
-- Mín:
+- Média: R$ 7.981,60
+- Moda: R$ 10.000
+- Mediana: R$ 7.000
+- Máx: R$ 22.500
+- Mín: R$ 1.000
 
 **Tempo de experiência na área de dados**
-- Média:
-- Moda:
-- Mediana:
-- Máx:
-- Mín:
+- Média: 3,03 anos
+- Moda: 1 ano
+- Mediana: 3 anos
+- Máx: 10 anos
+- Mín: 1 ano
 
 **IDH**
-- Maior:
-- Menor: 
+- Maior: Distrito Federal (0,814)
+- Menor: Maranhão (0,676)
 
 
 ### Gráficos
