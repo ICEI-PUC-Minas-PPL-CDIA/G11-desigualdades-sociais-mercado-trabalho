@@ -101,7 +101,7 @@ Buscamos compreender os fatores que contribuem na desigualdade social a partir d
 
 - Como a faixa salarial média varia entre profissionais de diferentes gêneros em cada região do Brasil?
 - Existe disparidade salarial entre profissionais com o mesmo nível, considerando raça?
-- Qual é a relação entre nível de escolaridade e faixa salarial em diferentes regiões do Brasil?
+- Qual é a relação entre nível de escolaridade e faixa salarial?
 - Existe relação entre o IDH do estado e o salário médio dos profissionais de dados que residem nesses estados?
 
 
@@ -316,56 +316,43 @@ O gráfico evidencia uma discrepância salarial entre grupos raciais ao longo do
 
 ### Pergunta 3
 
-_**Qual é a relação entre nível de escolaridade e faixa salarial em diferentes regiões do Brasil?**_
-
-_**Base de dados: State of Data Brasil 2023**_
-
-| Código          | Descrição                                              | Tipo                      |
-|----------------|------------------------------------------------------|---------------------------|
-| **P1_i** | Estado onde mora | Categórico Multivalorado |
-| **P1_l** | Nível de ensino                                           | Categórico Multivalorado  |
-| **P2_h** | Faixa salarial                                           | Numérico Discreto              |
+_**Qual é a relação entre nível de escolaridade e faixa salarial?**_
 
 **Heatmap: Região Sudeste**
 
 ![image](https://github.com/user-attachments/assets/1f1b926a-43a2-47c1-8c03-19cff44a471d)
 
+**Análise:**
+
+- Descrição:
+  	- Cada célula mostra a quantidade de pessoas com determinado nível de escolaridade em uma faixa salarial específica.
+  	- A intensidade da cor representa a frequência: quanto mais escura, maior o número de pessoas naquele cruzamento de escolaridade e faixa salarial.
+
+- Principais Observações:
+  	- Profissionais com pós-graduação e graduação/bacharelado concentram-se nas faixas de R$ 6.001 a R$ 20.000, com destaque para a faixa de R$ 12.001 a R$ 16.000.
+  	- Aqueles com mestrado aparecem em menor número, mas também têm boa representação entre R$ 8.001 e R$ 25.000.
+  	- Pessoas com nível superior incompleto (estudantes de graduação) tendem a se concentrar em faixas mais baixas de rendimento, até R$ 8.000.
+  	- Os que não têm graduação formal estão, majoritariamente, nas faixas mais baixas de rendimento.
+  	- O número de doutores/PhDs é pequeno, mas há uma leve presença em faixas mais altas, o que indica alguma valorização da titulação.
+
 **Gráfico de barras: Região Sudeste**
 
 ![image](https://github.com/user-attachments/assets/b7c5989c-f3ad-4d98-9d67-407e0ad607b2)
 
-**Heatmap: Região Sul**
+**Análise:**
 
-![image](https://github.com/user-attachments/assets/e4d38574-dcd9-4f46-b596-91358cde71f2)
+- Descrição:
+  	- Mostra a quantidade de pessoas por faixa salarial, segmentada por nível de escolaridade (cores diferentes).
+  	- Complementa visualmente o heatmap, facilitando a comparação entre níveis de escolaridade dentro de cada faixa salarial.
 
-**Gráfico de barras: Região Sul**
+- Principais Observações:
+  	- A pós-graduação lidera em número absoluto de pessoas nas faixas intermediárias e altas, sendo o grupo mais numeroso entre R$ 8.001 e R$ 20.000.
+  	- A graduação/bacharelado é o segundo grupo com maior presença em faixas salariais semelhantes.
+  	- O mestrado mostra distribuição semelhante, porém com menor volume.
+  	- Estudantes e pessoas sem graduação formal têm presença significativa nas faixas de menor renda, reforçando a correlação entre escolaridade e maior potencial de rendimento.
+  	- A partir da faixa de R$ 25.001/mês, os únicos grupos que se mantêm são pós-graduação, mestrado e doutorado, indicando que altos salários estão majoritariamente ligados à alta qualificação.
 
-![image](https://github.com/user-attachments/assets/c70fb0db-c327-4a20-acca-e8ae77710e63)
-
-**Heatmap: Região Centro-Oeste**
-
-![image](https://github.com/user-attachments/assets/5c2818e2-8fae-46d8-a240-37107b6beead)
-
-**Gráfico de barras: Região Centro-Oeste**
-
-![image](https://github.com/user-attachments/assets/44690de3-5460-47f9-93a9-e4d9e5fc84a3)
-
-**Heatmap: Região Nordeste**
-
-![image](https://github.com/user-attachments/assets/2dedabc8-7d77-49f6-b67f-53e49aef4b4e)
-
-**Gráfico de barras: Região Nordeste**
-
-![image](https://github.com/user-attachments/assets/ebcfaf5a-d157-461e-ba8f-6b71c222d4c0)
-
-**Heatmap: Região Norte**
-
-![image](https://github.com/user-attachments/assets/640254c6-7544-4eb5-9482-2c9d6fc23229)
-
-
-**Gráfico de barras: Região Norte**
-
-![image](https://github.com/user-attachments/assets/3a7aa66c-90be-494e-8bd6-1e561823d5b2)
+---
 
 ### Pergunta 4
 
