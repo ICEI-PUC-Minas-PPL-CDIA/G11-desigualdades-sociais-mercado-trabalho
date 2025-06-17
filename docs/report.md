@@ -358,17 +358,25 @@ _**Qual é a relação entre nível de escolaridade e faixa salarial?**_
 
 _**Existe relação entre o IDH do estado e o salário médio dos profissionais de dados que residem nesses estados?**_
 
-_**Base de dados principal Tratada**_
-
-| Código          | Descrição                                              | Tipo                      |
-|----------------|------------------------------------------------------|---------------------------|
-| **P1_i** | Estado onde mora | Categórico Multivalorado |
-| Salário (R$) | Salário do respondente | Numérico |
-| IDH do estado | Índice de desenvolvimento humano do estado onde mora o respondente | Numérico |
-
 **Gráfico de dispersão: IDH x Salário Médio**
 
 ![image](https://github.com/user-attachments/assets/77a7db08-76c1-4be3-9d45-3a90e24a5372)
+
+**Análise:**
+
+- Correlação Positiva:
+  	- Há uma tendência clara de correlação positiva: conforme o salário médio aumenta, o IDH também tende a ser maior.
+  	- Isso indica que estados com maior renda média tendem a apresentar melhores condições de desenvolvimento humano, como acesso à saúde, educação e qualidade de vida.
+
+- Destaques – Brasília e São Paulo:
+  	- Os dois pontos mais altos no eixo do IDH (próximos a 0,850) representam Brasília (DF) e São Paulo, confirmando que esses estados possuem:
+  	  	- Altos salários médios;
+  	  	- IDH elevado, refletindo melhores indicadores sociais e econômicos.
+
+- Concentração de Estados:
+  	- A maioria dos pontos está concentrada entre R$ 6.000 e R$ 8.000 de salário médio e IDH entre 0,70 e 0,78, indicando uma certa homogeneidade entre muitos estados do país.
+
+Portanto, o gráfico evidencia que existe uma relação direta entre salário médio e IDH por estado: quanto maior o rendimento, maior tende a ser o desenvolvimento humano. Estados como Brasília e São Paulo destacam-se por apresentarem os melhores indicadores em ambas as dimensões, enquanto estados com baixos salários refletem IDHs mais baixos, revelando as desigualdades regionais ainda presentes no Brasil. Esses dados são importantes para orientar políticas públicas de desenvolvimento social e econômico, com foco em reduzir disparidades regionais.
 
 ---
 
