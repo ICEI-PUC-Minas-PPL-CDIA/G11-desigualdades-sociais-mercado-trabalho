@@ -266,19 +266,25 @@ _*Obs: único estado sem registros é Roraima_
 
 _**Como a faixa salarial média varia entre profissionais de diferentes gêneros em cada região do Brasil?**_
 
-_**Base de dados: State of Data Brasil 2023**_
-
-
-| Código          | Descrição                                              | Tipo                      |
-|----------------|------------------------------------------------------|---------------------------|
-| **P1_b** | Gênero                    | Categórico Binominal      |
-| **P1_i** | Estado onde mora | Categórico Multivalorado |
-| **P2_h** | Faixa salarial                                           | Numérico Discreto              |
-
-**Salário Médio por Gênero em cada região do Brasil**
+**Salário Médio por Gênero em cada região do Brasil:**
 
 ![image](https://github.com/user-attachments/assets/1b7c5711-ade2-4fa7-b767-be6335694478)
 
+**Análise:**
+
+- Disparidade de Gênero:
+  	- Em todas as regiões do Brasil, os homens recebem, em média, salários mais altos do que as mulheres.
+  	- Essa diferença reforça a existência de uma desigualdade salarial de gênero na área de ciência de dados, mesmo em um setor que tende a ser mais técnico e qualificado.
+
+- Destaques Regionais:
+  	- Sudeste: Apresenta os maiores salários médios para ambos os gêneros. Isso é consistente com a maior concentração de empresas e oportunidades no setor de tecnologia nessa região.
+  	- Norte: Registra os menores salários médios para mulheres, com uma diferença acentuada em relação aos homens, indicando uma desigualdade ainda mais crítica nessa região.
+  	- Centro-Oeste e Sul: Também apresentam diferenças expressivas, embora com salários médios relativamente altos.
+  	- Nordeste: Apresenta salários médios mais baixos em geral, mas a diferença de gênero, embora existente, é um pouco menor em comparação a outras regiões.
+
+Portanto, o gráfico evidencia uma discrepância salarial entre homens e mulheres na área de ciência de dados no Brasil, independentemente da região. Isso demonstra a necessidade de políticas corporativas e públicas mais eficazes voltadas à equidade de gênero no mercado de trabalho, especialmente em setores estratégicos como o de tecnologia e dados.
+
+---
 
 ### Pergunta 2
 
