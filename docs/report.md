@@ -250,48 +250,9 @@ _*Obs: único estado sem registros é Roraima_
 
 ### Gráficos
 
-**Idade:**
-
 ![image](https://github.com/user-attachments/assets/f2dfe131-361e-4d6f-9225-b28b5f58040c)
 
-
-**Gênero:**
-
-![image](https://github.com/user-attachments/assets/da089828-b5e7-46ff-8acf-a91b65334279)
-
-
-**Cor/Raça/Etnia:**
-
-![image](https://github.com/user-attachments/assets/341adab7-7162-43e9-9bd2-f842350462f0)
-
-
-**PCD:**
-
-![image](https://github.com/user-attachments/assets/8a050aee-02c4-4b94-8b86-a3a06f940ae1)
-
-
-**Estado onde mora:**
-
-![image](https://github.com/user-attachments/assets/b6398acd-9dd8-4663-ab9c-3fbda25ddeaa)
-
-
-
-**Nível de ensino:**
-
-![image](https://github.com/user-attachments/assets/3e0529bf-526d-4014-9641-38edf069642f)
-
-
-**Nível na empresa:**
-
-![image](https://github.com/user-attachments/assets/edc6e967-9f53-4ef7-8161-713c03c8afae)
-
-
-**Faixa Salarial:**
-
 ![image](https://github.com/user-attachments/assets/f566c827-1f11-4b7d-9930-59af63429472)
-
-
-**Tempo de experiência:**
 
 ![image](https://github.com/user-attachments/assets/4ad4b9e2-65db-4600-b695-4588c253e8d5)
 
