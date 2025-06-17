@@ -122,18 +122,23 @@ O presente trabalho é direcionado a diferentes públicos que atuam ou têm inte
 
 ### Base de dados original 
 
-### Seleção dos atributos
-
-Criação de outra planilha no Excel, contendo os atributos principais:
+[State of Data 2023](assets/data/base_de_dados_principal/State_of_Data_2023.xlsx)
 
 ### Limpeza e transformação de dados: 
 
+- Seleção dos atributos
 - Tratamento dos valores nulos: -1512 linhas 
 - Tratamento dos outliers: -142 linhas 
-- Conversão dos dados da coluna “Faixa salarial” para números contínuos 
-- Conversão dos dados da coluna “Tempo de experiência” para números contínuos
+- Conversão dos dados da coluna “Faixa salarial” para números inteiros 
+- Conversão dos dados da coluna “Tempo de experiência” para números inteiros
+
+### Enriquecimento de dados 
+
+A partir da base de dados [IBGE Estatísticas Brasil](assets/data/base_de_dados_secundaria/IBGE_Estatisicas_Brasil.xlsx) foi escolhida o atributo "IDH" para o enriquecimento. Assim, juntamos cada estado na base de dados principal com seu respectivo IDH na base de dados secundária.
 
 ### Base de dados tratada
+
+[Base de dados final](assets/data/base_de_dados_final/base_principal_tratada.xlsx)
 
 --- 
 
