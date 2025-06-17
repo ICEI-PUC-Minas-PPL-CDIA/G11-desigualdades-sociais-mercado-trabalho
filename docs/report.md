@@ -122,7 +122,7 @@ O presente trabalho é direcionado a diferentes públicos que atuam ou têm inte
 
 ### Base de dados original 
 
-[State of Data 2023](assets/data/base_de_dados_principal/State_of_Data_2023.xlsx)
+[State of Data 2023](../assets/data/base_de_dados_principal/State_of_Data_2023.xlsx)
 
 ### Limpeza e transformação de dados: 
 
@@ -134,15 +134,15 @@ O presente trabalho é direcionado a diferentes públicos que atuam ou têm inte
 
 ### Enriquecimento de dados 
 
-A partir da base de dados [IBGE Estatísticas Brasil](assets/data/base_de_dados_secundaria/IBGE_Estatisicas_Brasil.xlsx) foi escolhida o atributo "IDH" para o enriquecimento. Assim, juntamos cada estado na base de dados principal com seu respectivo IDH na base de dados secundária.
+A partir da base de dados [IBGE Estatísticas Brasil](../assets/data/base_de_dados_secundaria/IBGE_Estatisicas_Brasil.xlsx) foi escolhida o atributo "IDH" para o enriquecimento. Assim, juntamos cada estado na base de dados principal com seu respectivo IDH na base de dados secundária.
 
 ### Base de dados dos modelos 
 
-Para algumas análises e treinamento dos modelos, foi utilizada a base de dados [Base de dados dos modelos](assets/data/base_de_dados_modelosML/Base_random_forest.xlsx) , em que o salário foi transformado em uma variável categórica binária ("Alto" ou "Baixo") a partir da mediana. 
+Para algumas análises e treinamento dos modelos, foi utilizada a base de dados [Base de dados dos modelos](../assets/data/base_de_dados_modelosML/Base_random_forest.xlsx) , em que o salário foi transformado em uma variável categórica binária ("Alto" ou "Baixo") a partir da mediana. 
 
 ### Base de dados tratada
 
-[Base de dados final](assets/data/base_de_dados_final/base_principal_tratada.xlsx)
+[Base de dados final](../assets/data/base_de_dados_final/base_principal_tratada.xlsx)
 
 --- 
 
