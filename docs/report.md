@@ -100,7 +100,7 @@ O objetivo geral deste trabalho é investigar e compreender, por meio da aplica�
 Buscamos compreender os fatores que contribuem na desigualdade social a partir de uma análise de dados. Desse modo, cada pergunta a seguir foi respondida no processo da Análise Exploratória: 
 
 - Como a faixa salarial média varia entre profissionais de diferentes gêneros em cada região do Brasil?
-- Existe disparidade salarial entre profissionais com o mesmo nível e tempo de experiência, considerando gênero e raça?
+- Existe disparidade salarial entre profissionais com o mesmo nível, considerando raça?
 - Qual é a relação entre nível de escolaridade e faixa salarial em diferentes regiões do Brasil?
 - Existe relação entre o IDH do estado e o salário médio dos profissionais de dados que residem nesses estados?
 
@@ -288,36 +288,31 @@ Portanto, o gráfico evidencia uma discrepância salarial entre homens e mulhere
 
 ### Pergunta 2
 
-_**Existe disparidade salarial entre profissionais com o mesmo nível e tempo de experiência, considerando gênero e raça?**_
-
-_**Base de dados: State of Data Brasil 2023**_
-
-
-| Código          | Descrição                                              | Tipo                      |
-|----------------|------------------------------------------------------|---------------------------|
-| **P1_b** | Gênero                    | Categórico Binominal      |
-| **P1_c** | Cor/Raça/Etnia                 | Categórico Multivalorado  |
-| **P2_g** | Nível na empresa | Categórico Multivalorado |
-| **P2_h** | Faixa salarial                                           | Numérico Discreto              |
-|**P2_i** | Tempo de experiência na área de dados | Numérico Discreto |
-
-**Boxplots de Salário por Gênero e Nível**
-
-![image](https://github.com/user-attachments/assets/8de0a19c-11f1-4daf-a1eb-d043a215c296)
-
-**Salário Médio Por Nível De Cargo Gênero**
-
-![image](https://github.com/user-attachments/assets/b091da52-4ff3-4fca-90ba-86c05058632c)
+_**Existe disparidade salarial entre profissionais com o mesmo nível, considerando raça?**_
 
 **Salário Médio Por Nível De Cargo E Raça/Cor/Etnia**
 
 ![image](https://github.com/user-attachments/assets/0d52d33f-c36d-497f-ae91-210780812c1f)
 
-**Mapa De Calor: Salário Médio Por Raça × Gênero × Nível**
+**Análise:**
 
-![image](https://github.com/user-attachments/assets/3bc4054d-1a73-4940-b8f9-ccdcaf10211e)
+- Progressão Salarial por Cargo:
+  	- Há um aumento claro no salário médio à medida que se sobe na hierarquia: júnior → pleno → sênior.
+  	- Essa tendência é esperada, refletindo a valorização da experiência e responsabilidade no cargo.
 
+- Desigualdades por Raça/Cor/Etnia:
+  	- Em todos os níveis, pessoas brancas e amarelas tendem a receber os maiores salários médios.
+  	- Pessoas pretas e pardas apresentam salários sistematicamente menores, especialmente nos cargos júnior e pleno.
+  	- A etnia indígena apresenta o menor salário médio nos níveis júnior e pleno, mas um valor surpreendentemente alto no nível sênior — esse salto pode estar distorcido por uma quantidade muito pequena de registros, o que exige cautela na interpretação.
 
+- Raças com Pouca Representatividade:
+  	- A observação de que as categorias "Amarela" e "Indígena" têm poucos registros é fundamental:
+  	  	- Pode haver viés estatístico nos resultados, principalmente para o cargo sênior indígena.
+  	  	- Os altos salários médios nessas categorias, especialmente para os indígenas no nível sênior, podem não refletir a realidade geral da população, mas sim casos pontuais.
+
+O gráfico evidencia uma discrepância salarial entre grupos raciais ao longo dos diferentes níveis de cargo, sendo mais acentuada nas fases iniciais da carreira. A presença de poucos registros para pessoas indígenas e amarelas exige cuidado na interpretação de seus valores, especialmente nos extremos (como o alto salário sênior indígena). Ainda assim, os dados reforçam a necessidade de ações afirmativas e políticas de equidade racial no setor de tecnologia e dados, para garantir oportunidades mais justas desde o início da carreira profissional.
+
+---
 
 ### Pergunta 3
 
