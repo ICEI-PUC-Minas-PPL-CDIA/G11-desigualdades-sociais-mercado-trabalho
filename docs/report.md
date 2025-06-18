@@ -794,15 +794,15 @@ Apesar dos avanços obtidos, o trabalho possui limitações. A base de dados era
 
 # APÊNDICES
 
-**Colocar link:**
+[Código do modelo 1](src/apendices/random_forest1.ipynb)
 
-Do código (armazenado no repositório);
+[Código do modelo 2](src/apendices/codigo_modelo2.ipynb)
 
-Dos artefatos (armazenado do repositório);
+[Artefatos](assets)
 
-Da apresentação final (armazenado no repositório);
+[Apresentação final]
 
-Do vídeo de apresentação (armazenado no repositório).
+[Vídeo da apresentação]
 
 
 
