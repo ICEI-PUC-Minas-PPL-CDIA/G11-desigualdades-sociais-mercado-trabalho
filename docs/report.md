@@ -786,14 +786,11 @@ Além disso, a base de dados usada era simples, com poucos atributos e poucos re
 
 ## 8. Conclusão
 
-Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, 
-onde se verifica as observações pessoais de cada aluno.
+Este trabalho teve como objetivo investigar a desigualdade social no mercado de trabalho da área de Ciência de Dados no Brasil, utilizando técnicas de Ciência de Dados e Aprendizado de Máquina. A partir das bases “State of Data Brasil 2023” e “IBGE Estatísticas Brasil”, realizamos análises exploratórias e treinamos dois modelos de classificação – Random Forest e Árvore de Decisão – para identificar padrões salariais influenciados por características sociais como gênero, raça, escolaridade, tempo de experiência e região de residência.
 
-Uma conclusão deve ter 3 partes:
+Os resultados revelaram disparidades significativas na remuneração de profissionais da área, especialmente quando consideradas intersecções entre variáveis sociais. A Árvore de Decisão apresentou melhor desempenho geral (acurácia de 80,15%) e maior capacidade explicativa, sendo indicada para cenários que exigem transparência e diagnóstico social. Já o modelo Random Forest, embora tenha mostrado robustez na previsão de salários baixos, teve menor interpretabilidade e desempenho inferior para salários altos. Cada modelo se mostrou vantajoso em contextos diferentes: enquanto a Árvore de Decisão é útil para análise crítica e formulação de políticas, o Random Forest se destaca em aplicações mais técnicas e preditivas.
 
-   * Breve resumo do que foi desenvolvido
-	 * Apresenação geral dos resultados obtidos com discussão das vantagens e desvantagens do sistema inteligente
-	 * Limitações e possibilidades de melhoria
+Apesar dos avanços obtidos, o trabalho possui limitações. A base de dados era relativamente pequena e com poucos atributos, o que pode ter restringido o treinamento dos modelos. Além disso, fatores externos relevantes, como histórico educacional, tipo de empresa ou redes de relacionamento profissional, não foram considerados. Para trabalhos futuros, recomenda-se o uso de bases mais amplas e diversas, a aplicação de técnicas de balanceamento de dados e a experimentação com modelos mais complexos, a fim de melhorar tanto a acurácia quanto a interpretabilidade das análises.
 
 
 # REFERÊNCIAS
