@@ -62,8 +62,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ## Resumo 
 
-Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+Este trabalho utiliza técnicas de Ciência de Dados e Aprendizado de Máquina para investigar desigualdades sociais no mercado de trabalho da área de dados no Brasil. A partir da base "State of Data Brasil 2023", enriquecida com dados do IBGE sobre o IDH dos estados, foram analisadas variáveis como gênero, raça, escolaridade, região e experiência profissional. O objetivo principal foi compreender como essas características sociais influenciam os salários dos profissionais da área. Foram treinados dois modelos de classificação (Random Forest e Árvore de Decisão), com destaque para a capacidade explicativa da Árvore de Decisão, que obteve maior acurácia (80,15%) e melhor desempenho para identificar salários altos. Os resultados evidenciam padrões de disparidade salarial relacionados a interseções entre raça, gênero e localização.
 
 ---
 
