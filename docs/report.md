@@ -54,7 +54,6 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
   - [Interpretação do modelo 2](#interpretação-do-modelo-2)
 - [Análise comparativa dos modelos](#análise-comparativa-dos-modelos)
 - [Conclusão](#8-conclusão)
-- [Referências](#referências)
 - [Apêndices](#apêndices)
 
 
@@ -791,32 +790,6 @@ Este trabalho teve como objetivo investigar a desigualdade social no mercado de 
 Os resultados revelaram disparidades significativas na remuneração de profissionais da área, especialmente quando consideradas intersecções entre variáveis sociais. A Árvore de Decisão apresentou melhor desempenho geral (acurácia de 80,15%) e maior capacidade explicativa, sendo indicada para cenários que exigem transparência e diagnóstico social. Já o modelo Random Forest, embora tenha mostrado robustez na previsão de salários baixos, teve menor interpretabilidade e desempenho inferior para salários altos. Cada modelo se mostrou vantajoso em contextos diferentes: enquanto a Árvore de Decisão é útil para análise crítica e formulação de políticas, o Random Forest se destaca em aplicações mais técnicas e preditivas.
 
 Apesar dos avanços obtidos, o trabalho possui limitações. A base de dados era relativamente pequena e com poucos atributos, o que pode ter restringido o treinamento dos modelos. Além disso, fatores externos relevantes, como histórico educacional, tipo de empresa ou redes de relacionamento profissional, não foram considerados. Para trabalhos futuros, recomenda-se o uso de bases mais amplas e diversas, a aplicação de técnicas de balanceamento de dados e a experimentação com modelos mais complexos, a fim de melhorar tanto a acurácia quanto a interpretabilidade das análises.
-
-
-# REFERÊNCIAS
-
-Como um projeto de sistema inteligente não requer revisão bibliográfica, 
-a inclusão das referências não é obrigatória. No entanto, caso você 
-tenha utilizado referências na introdução ou deseje 
-incluir referências relacionadas às tecnologias, padrões, ou metodologias 
-que serão usadas no seu trabalho, relacione-as de acordo com a ABNT.
-
-Verifique no link abaixo como devem ser as referências no padrão ABNT:
-
-http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
-
-Por exemplo:
-
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
-
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
-
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
-
 
 
 # APÊNDICES
