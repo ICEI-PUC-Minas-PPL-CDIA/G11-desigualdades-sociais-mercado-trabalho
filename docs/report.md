@@ -637,7 +637,7 @@ A árvore começa avaliando os dados a partir da seguinte lógica:
 
 - Se não (nível mais alto): vai para a direita
 
-➡ Isso separa profissionais em início de carreira dos demais.
+-> Isso separa profissionais em início de carreira dos demais.
 
 ⸻
 
