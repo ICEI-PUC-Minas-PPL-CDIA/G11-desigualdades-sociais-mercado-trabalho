@@ -1,6 +1,6 @@
 # DESIGUALDADE SOCIAL NO MERCADO DE DADOS NO BRASIL
 
-O referente projeto tem como objetivo analisar um problema de relevância social usando técnicas de ciências de dados. Nesse contexto, a partir da análise da base de dados State of Data Brasil 2023, observamos o problema da discrepância salarial entre grupos étnicos e buscamos associa-lo à desigualdades sociais, usando uma base de dados auxiliar. Assim, nosso modelo utiliza técnicas de análise de dados e aprendizado de máquina para identificar como as desigualdades sociais afetam o salário dos profissionais no mercado de trabalho da área de dados no Brasil. 
+Este trabalho utiliza técnicas de Ciência de Dados e Aprendizado de Máquina para investigar desigualdades sociais no mercado de trabalho da área de dados no Brasil. A partir da base "State of Data Brasil 2023", enriquecida com dados do IBGE sobre o IDH dos estados, foram analisadas variáveis como gênero, raça, escolaridade, região e experiência profissional. O objetivo principal foi compreender como essas características sociais influenciam os salários dos profissionais da área. Foram treinados dois modelos de classificação (Random Forest e Árvore de Decisão), com destaque para a capacidade explicativa da Árvore de Decisão, que obteve maior acurácia (80,15%) e melhor desempenho para identificar salários altos. Os resultados evidenciam padrões de disparidade salarial relacionados a interseções entre raça, gênero e localização.
 
 ## Integrantes
 
@@ -12,16 +12,20 @@ O referente projeto tem como objetivo analisar um problema de relevância social
 * Prof. Hugo Bastos de Paula
 * Prof. Hayala Nepomuceno Curto
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
 ## Histórico de versões
 
-* 0.1.1
-    * CHANGE: Atualização das documentacoes. Código permaneceu inalterado.
 * 0.1.0
-    * Indução do primeiro modelo do agente inteligente.
+    * Relatorio final
+* 0.0.6
+    * Modelo dois
+* 0.0.5
+    * Modelo um
+* 0.0.4
+    * Análise exploratória de dados
+* 0.0.3
+    * Preparação de dados 
+* 0.0.2
+    * Elaboração do documento de contexto
 * 0.0.1
-    * Trabalhando na preparação dos dados.
+    * Definição do Problema
 
