@@ -579,13 +579,15 @@ Essa assimetria na performance do modelo fortalece a hipótese de que a desigual
 
 ### Resultados obtidos com o modelo 2.
 
-Acurácia no treino: 85,30%
+Acurácia no treino: 0.83
 
-Acurácia no teste: 80,15%
+Acurácia no teste: 0.80
+
+![image](https://github.com/user-attachments/assets/26db8120-11b2-4517-ac04-af9d7efbee0b)
 
 Assim como no primeiro modelo, a acurácia é uma métrica de avaliação que mostra a proporção de previsões corretas feitas pelo modelo em relação ao total de casos.
 
-Neste caso, a diferença entre treino e teste é pequena (cerca de 5,1 pontos percentuais), o que novamente indica que o modelo não está sofrendo de overfitting severo, nem de underfitting.
+Neste caso, a diferença entre treino e teste é pequena (cerca de 0.03), o que novamente indica que o modelo não está sofrendo de overfitting, nem de underfitting.
 O modelo conseguiu capturar relações significativas entre variáveis sociais/profissionais e a variável de interesse (salário alto ou baixo).
 
 Métricas de Classificação - Relatório detalhado:
@@ -597,6 +599,8 @@ Métricas de Classificação - Relatório detalhado:
 - Recall: 0,77 → De todos os salários que são realmente "Baixo", o modelo acerta 77%.
 
 - F1 Score: 0,75 → Boa harmonia entre precisão e recall, desempenho equilibrado.
+
+![image](https://github.com/user-attachments/assets/df15c907-895a-478e-a140-d00f8bb2b14f)
 
  ### Classe Alto:
 
@@ -620,58 +624,80 @@ Métricas de Classificação - Relatório detalhado:
 
 ### Interpretação do modelo 2
 
-A árvore de decisão foi treinada para prever a evasão de estudantes com base em variáveis como média, faltas, perfil, renda, entre outras.
+A árvore de decisão foi treinada para prever o valor de salário com base em variáveis como nível de carreira, experiência e gênero.
 
 A árvore começa avaliando os dados a partir da seguinte lógica:
 
+⸻
+
 ### Nó Raiz (Nó 0)
-Condição: MEDIA <= 59.5
+#### Condição: nivel_carreira <= 1.5
 
-- Se sim (ou seja, a média do aluno é baixa): vai para a esquerda
+- Se sim (nível mais baixo): vai para a esquerda
 
-- Se não (média alta): vai para a direita
+- Se não (nível mais alto): vai para a direita
 
-Isso já separa os alunos com desempenho fraco dos demais.
+➡ Isso separa profissionais em início de carreira dos demais.
 
-### Se foi para a esquerda (média baixa):
-#### Nó 1 — FALTAS <= 16.5
+⸻
 
-- Se o aluno tem poucas faltas (<= 16.5): vai para a esquerda
+Se foi para a esquerda (nível de carreira baixo):
+#### Nó 1 — nivel_carreira <= 0.5
 
-- Se muitas faltas (> 16.5): vai para a direita
+- Se sim (nível extremamente iniciante): vai para a esquerda
 
-### Se foi para a direita (muitas faltas):
-#### Nó 4 — PERFIL <= 2.5
+- Se não (nível um pouco mais avançado): vai para a direita
 
-- Perfil comportamental/acadêmico do aluno.
+### Se foi para a esquerda (nível carreira muito baixo):
+#### Nó 3 — nivel_senior <= 1.5
 
-- Se baixo perfil (<= 2.5): vai para a esquerda
+- Se nível_senior é baixo: vai para a esquerda → Salário médio: R$ 2.841
 
-- Se bom perfil (> 2.5): vai para a direita
+- Se nível_senior é mais alto: vai para a direita → Salário médio: R$ 4.173
 
-### Se foi para a esquerda (perfil ruim):
-#### Nó 8 — RENDA <= 2.5
+### Se foi para a direita (nível de carreira um pouco maior):
+#### Nó 4 — experiencia <= 2.0
 
-- Se a renda é baixa (<= 2.5): vai para a esquerda → Resultado: Alta chance de evasão
+- Se experiência é baixa: vai para a esquerda → Salário médio: R$ 6.137
 
-- Se a renda é maior: vai para a direita → Resultado: Média chance de evasão
+- Se experiência é maior: vai para a direita → Salário médio: R$ 7.997
 
-### Se foi para a direita no nó raiz (média alta):
-#### Nó 2 — PERFIL <= 1.5
+⸻
 
-- Perfil muito baixo (<= 1.5): vai para a esquerda → Resultado: Média/Alta chance de evasão
+### Se foi para a direita no nó raiz (nível de carreira maior):
+#### Nó 2 — experiencia <= 3.5
 
-- Perfil mais alto: vai para a direita → Resultado: Baixa chance de evasão
+- Se experiência é menor: vai para a esquerda
+
+- Se experiência é maior: vai para a direita
+
+### Se foi para a esquerda (experiência menor):
+#### Nó 5 — experiencia <= 2.0
+
+- Se experiência for ainda mais baixa: vai para a esquerda → Salário médio: R$ 9.397
+
+- Se experiência for maior: vai para a direita → Salário médio: R$ 11.144
+
+### Se foi para a direita (experiência alta):
+#### Nó 6 — genero <= 0.5
+
+- Se gênero for 0 (provavelmente codificado para um grupo específico): vai para a esquerda → Salário médio: R$ 11.950
+
+- Se gênero for 1: vai para a direita → Salário médio: R$ 13.112
+
+⸻
 
 ### Resumo do funcionamento da árvore:
 
-- O fator mais importante é a média final do aluno.
+- O fator mais importante para o modelo é o nível de carreira.
 
-- Se a média for baixa, o modelo avalia faltas, depois perfil e renda.
+- Se o nível for baixo, o modelo examina experiência e depois nível sênior.
 
-- Se a média for alta, só o perfil já define a decisão.
+- Se o nível for alto, o modelo considera experiência e, se necessário, gênero.
 
-- Alunos com baixa média + muitas faltas + baixo perfil + renda baixa são os com maior risco de evasão.
+- Salários mais baixos aparecem nos nós com nível de carreira muito inicial + pouca experiência + nível sênior baixo.
+
+- Salários mais altos aparecem nos nós com carreira mais avançada + muita experiência, e o modelo também diferencia com base em gênero.
 
 ### Sobreajuste:
 O modelo 2 também foi treinado com estratégias para evitar o overfitting. Foram usados:
