@@ -620,6 +620,59 @@ Métricas de Classificação - Relatório detalhado:
 
 ### Interpretação do modelo 2
 
+A árvore de decisão foi treinada para prever a evasão de estudantes com base em variáveis como média, faltas, perfil, renda, entre outras.
+
+A árvore começa avaliando os dados a partir da seguinte lógica:
+
+## Nó Raiz (Nó 0)
+Condição: MEDIA <= 59.5
+
+- Se sim (ou seja, a média do aluno é baixa): vai para a esquerda
+
+- Se não (média alta): vai para a direita
+
+Isso já separa os alunos com desempenho fraco dos demais.
+
+## Se foi para a esquerda (média baixa):
+# Nó 1 — FALTAS <= 16.5
+
+- Se o aluno tem poucas faltas (<= 16.5): vai para a esquerda
+
+- Se muitas faltas (> 16.5): vai para a direita
+
+## Se foi para a direita (muitas faltas):
+# Nó 4 — PERFIL <= 2.5
+
+- Perfil comportamental/acadêmico do aluno.
+
+- Se baixo perfil (<= 2.5): vai para a esquerda
+
+- Se bom perfil (> 2.5): vai para a direita
+
+## Se foi para a esquerda (perfil ruim):
+# Nó 8 — RENDA <= 2.5
+
+- Se a renda é baixa (<= 2.5): vai para a esquerda → Resultado: Alta chance de evasão
+
+- Se a renda é maior: vai para a direita → Resultado: Média chance de evasão
+
+## Se foi para a direita no nó raiz (média alta):
+# Nó 2 — PERFIL <= 1.5
+
+- Perfil muito baixo (<= 1.5): vai para a esquerda → Resultado: Média/Alta chance de evasão
+
+- Perfil mais alto: vai para a direita → Resultado: Baixa chance de evasão
+
+## Resumo do funcionamento da árvore:
+
+- O fator mais importante é a média final do aluno.
+
+- Se a média for baixa, o modelo avalia faltas, depois perfil e renda.
+
+- Se a média for alta, só o perfil já define a decisão.
+
+- Alunos com baixa média + muitas faltas + baixo perfil + renda baixa são os com maior risco de evasão.
+
 ### Sobreajuste:
 O modelo 2 também foi treinado com estratégias para evitar o overfitting. Foram usados:
 
