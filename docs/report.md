@@ -442,6 +442,8 @@ A construção e o treinamento do modelo foram feitos em Python, utilizando as b
 ### Passo 1: Importação das bibliotecas e leitura da base de dados
 Primeiramente, foram importadas as bibliotecas e lida a base de dados "Base de dados principal TRATADA ATUALIZADA.xlsx". Algumas colunas foram renomeadas para facilitar o trabalho com o DataFrame.
 
+![image](https://github.com/user-attachments/assets/aa7d4fda-dd9e-41c2-ab45-1a4fc3dad34a)
+
 ### Passo 2: Codificação das variáveis categóricas
 Assim como no modelo de Random Forest, as variáveis categóricas foram transformadas em variáveis numéricas utilizando a técnica de Label Encoding:
 
@@ -451,8 +453,12 @@ Assim como no modelo de Random Forest, as variáveis categóricas foram transfor
 
 - Esses codificadores foram armazenados em um dicionário `label_encoders`, permitindo reverter os códigos para texto se necessário.
 
+![image](https://github.com/user-attachments/assets/7b2d288d-eea8-461d-93a4-1d3a231b0e84)
+
 ### Passo 3: Definição da variável alvo
 A coluna "Salário" foi definida como variável alvo (target), com o objetivo de prever sua classificação ("Alto" ou "Baixo").
+
+![image](https://github.com/user-attachments/assets/4019c498-2537-4994-879b-03d5bbd9531f)
 
 ### Passo 4: Divisão dos dados em treino e teste
 A base foi dividida em dois conjuntos:
@@ -460,6 +466,8 @@ A base foi dividida em dois conjuntos:
 - Treinamento: 90% dos dados, para o modelo aprender os padrões;
 
 - Teste: 10% dos dados, para avaliar o desempenho do modelo em dados novos.
+
+![image](https://github.com/user-attachments/assets/5b001d7f-0322-4015-97f8-d7486b6ed468)
 
 ### Passo 5: Treinamento do modelo
 Foi utilizado um DecisionTreeClassifier com as seguintes configurações:
@@ -469,6 +477,8 @@ Foi utilizado um DecisionTreeClassifier com as seguintes configurações:
 - `min_samples_split=10` → Um nó só será dividido se houver pelo menos 10 amostras, também uma técnica para evitar overfitting;
 
 - `random_state=42` → Garante que o resultado seja reprodutível.
+
+![image](https://github.com/user-attachments/assets/9b87e201-52ed-4042-8e65-08380ab114af)
 
 ### Passo 6: Avaliação do modelo
 Após o treinamento, o modelo foi avaliado com os dados de teste:
@@ -480,6 +490,8 @@ Após o treinamento, o modelo foi avaliado com os dados de teste:
 - Foi gerada uma curva ROC para visualizar a performance do classificador.
 
 Além disso, o modelo foi visualizado com a função plot_tree, permitindo ver claramente como as decisões são tomadas — uma das grandes vantagens das Árvores de Decisão.
+
+![image](https://github.com/user-attachments/assets/1b097fb5-37ce-4c77-b9f2-55f04dacbdc7)
 
 ---
 
