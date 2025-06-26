@@ -800,9 +800,9 @@ Apesar dos avanços obtidos, o trabalho possui limitações. A base de dados era
 
 [Artefatos](assets)
 
-[Apresentação final]
+[Apresentação final](docs/media/apresentacao_final_projeto1.pptx)
 
-[Vídeo da apresentação]
+[Vídeo da apresentação](https://drive.google.com/drive/folders/1t203Fu3MwMvK1xdlKePvovg0ldr4pBlb?usp=drive_link)
 
 
 
