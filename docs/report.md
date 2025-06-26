@@ -794,13 +794,13 @@ Apesar dos avanços obtidos, o trabalho possui limitações. A base de dados era
 
 # APÊNDICES
 
-[Código do modelo 1](src/apendices/random_forest1.ipynb)
+[Código do modelo 1](../src/apendices/random_forest1.ipynb)
 
-[Código do modelo 2](src/apendices/codigo_modelo2.ipynb)
+[Código do modelo 2](../src/apendices/codigo_modelo2.ipynb)
 
-[Artefatos](assets)
+[Artefatos](../assets)
 
-[Apresentação final](docs/media/apresentacao_final_projeto1.pptx)
+[Apresentação final](media/apresentacao_final_projeto1.pptx)
 
 [Vídeo da apresentação](https://drive.google.com/drive/folders/1t203Fu3MwMvK1xdlKePvovg0ldr4pBlb?usp=drive_link)
 
